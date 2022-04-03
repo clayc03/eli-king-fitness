@@ -67,7 +67,23 @@ h1, h2 {
 #header-image {
     height: 600px;
     width: 100%;
-    background: url('../images/pexels-photo-3838381.webp') no-repeat center center;
+    background: url('../images/personal\ trainer1.jpg') no-repeat center center;
     background-size: cover;
+}
+
+/* animates zoom effect on loading page */
+
+
+
+/* creates the level of zoom for header image */
+
+@keyframes header-zoom {
+       from {
+           transform: scale (1);
+       }
+
+       to {
+           transform: scale (1.1);
+       }
 }
 
