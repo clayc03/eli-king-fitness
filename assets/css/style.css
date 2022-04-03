@@ -14,19 +14,18 @@ body {
 
 /* headings and logo */
 
-h1,
-h2 {
+h1, h2 {
     font-family: montserrat, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    color: #000000;
+    letter-spacing: 4px;
+    color: darkslateblue;
 }
 
 /* navigation links */
 
 #menu {
     font-size: 110%;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
 }
 
 #menu, #logo {
@@ -36,7 +35,7 @@ h2 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 #menu a {
@@ -57,10 +56,18 @@ h2 {
     font-size: 300%;
 }
 
-/* header-video */
+/* header-image */
 
-#header-video {
-    height: 500px;
+#header-outer {
+    height: 600px;
     width: 100%;
-    background: url('../cs');
+    overflow: hidden;
 }
+
+#header-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/pexels-photo-3838381.webp') no-repeat center center;
+    background-size: cover;
+}
+
