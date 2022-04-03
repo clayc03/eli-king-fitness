@@ -6,22 +6,36 @@
     border: none;
 }
 
-body {font-family: Open Sans, sans-serif;
+body {
+    font-family: Open Sans, sans-serif;
     font-weight: 300;
     color: #707070;
-     }
+}
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: montserrat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color:#0000;
+    color: #000000;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
 }
 
 #logo {
     float: left;
     font-size: 300%;
 }
-
