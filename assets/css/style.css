@@ -9,7 +9,7 @@
 body {
     font-family: Open Sans, sans-serif;
     font-weight: 300;
-    color: #707070;
+    color: #7070770;
 }
 
 /* headings and logo */
@@ -29,10 +29,27 @@ h2 {
     letter-spacing: 3px;
 }
 
+#menu, #logo {
+    line-height: 70px;
+}
+
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #616161;
+}
+
+.active {
+    border-bottom: 1px solid #616161;
 }
 
 #logo {
