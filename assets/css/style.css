@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Open Sans, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 300;
     color: #7070770;
 }
@@ -15,10 +15,10 @@ body {
 /* headings and logo */
 
 h1, h2 {
-    font-family: montserrat, sans-serif;
+    font-family: Open Sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: darkslateblue;
+    color: #000000;
 }
 
 /* navigation links */
@@ -56,12 +56,18 @@ h1, h2 {
     font-size: 300%;
 }
 
-/* header-image */
+/* header-image and cover text*/
 
 #header-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text, cover-text h2 {
+    color: #fff;
 }
 
 #header-image {
@@ -71,19 +77,23 @@ h1, h2 {
     background-size: cover;
 }
 
-/* animates zoom effect on loading page */
+#cover-text {
+    font-size: 120%;
+    font-family: Open Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 
+    width: 300px;
+    height: 100px;
 
+    padding-top: 35px;
+    padding-left: 10px;
 
-/* creates the level of zoom for header image */
+    background-color: rgba(0,0,128);
 
-@keyframes header-zoom {
-       from {
-           transform: scale (1);
-       }
+    top: 15px;
+    left: 50px;
 
-       to {
-           transform: scale (1.1);
-       }
+    position: absolute;
 }
 
