@@ -9,8 +9,7 @@
 body {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
-    color: #ffffff;
-    background-color: lightsteelblue;
+    color: #707070;
 }
 
 /* headings and logo */
@@ -21,7 +20,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color:
-        #000080;
+        #004c99;
 }
 
 /* navigation links */
@@ -48,11 +47,11 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #707070;
 }
 
 .active {
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #707070;
 }
 
 #logo {
@@ -95,7 +94,7 @@ cover-text h2 {
     padding-top: 30px;
     padding-left: 20px;
 
-    background-color: rgba(0, 0, 128);
+    background-color: rgba(0, 76, 153);
 
     top: 15px;
     left: 50px;
@@ -127,7 +126,7 @@ cover-text h2 {
 }
 
 hr {
-    border-top: 1px solid #000080;
+    border-top: 1px solid #004c99;
     width: 100%;
     margin: 5px 0;
 }
@@ -167,7 +166,7 @@ hr {
 #contact {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
-    color: #000080, #ffffff;
+    color: #004c99, #707070;
     width: 50%;
     clear: both;
     margin-bottom: 20px;
@@ -207,5 +206,5 @@ footer {
     font-size: 180%;
     margin: 2%;
     padding: 5%;
-    color: #000080;
+    color: #004c99;
 }
