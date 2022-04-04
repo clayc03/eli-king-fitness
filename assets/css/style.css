@@ -44,11 +44,11 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #000080;
+    border-bottom: 1px solid #7070770;
 }
 
 .active {
-    border-bottom: 1px solid #000080;
+    border-bottom: 1px solid #7070770;
 }
 
 #logo {
