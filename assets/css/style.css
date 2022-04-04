@@ -99,6 +99,81 @@ h1, h2 {
     position: absolute;
 }
 
+/* About Section */
+
+#club-ethos {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+}
+
+hr {
+    border-top: 1px solid #707070;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
+}
+
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
+/* Contact & Address text */
+
+#contact {
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    color: #707070;
+}
+
+#address {
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    color: #707070;
+    position: right;
+}
+
+
 /* map */
 #map-wrapper {
 
@@ -110,21 +185,6 @@ h1, h2 {
     height: 300px;
     width: 100%;
     border: none;
-}
-
-/* Contact & Address text */
-
-.contact {
-    font-family: Montserrat, sans-serif;
-    font-weight: 300;
-    color: #707070;
-}
-
-.address {
-    font-family: Montserrat, sans-serif;
-    font-weight: 300;
-    color: #707070;
-    position: right;
 }
 
 /* footer */
