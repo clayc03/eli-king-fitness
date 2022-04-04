@@ -10,17 +10,18 @@ body {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
     color: #ffffff;
-    background-color: lightslategray;
+    background-color: lightsteelblue;
 }
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Open Sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: 
-    #000080;
+    color:
+        #000080;
 }
 
 /* navigation links */
@@ -30,7 +31,8 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 70px;
 }
 
@@ -68,14 +70,15 @@ h1, h2 {
     position: relative;
 }
 
-#cover-text, cover-text h2 {
+#cover-text,
+cover-text h2 {
     color: #fff;
 }
 
 #header-image {
     height: 600px;
     width: 100%;
-    background: url('../images/personal\ trainer1.jpg') no-repeat center center;
+    background: url('../images/personal-trainer.jpeg') no-repeat center center;
     background-size: cover;
 }
 
@@ -92,7 +95,7 @@ h1, h2 {
     padding-top: 30px;
     padding-left: 20px;
 
-    background-color: rgba(0,0,128);
+    background-color: rgba(0, 0, 128);
 
     top: 15px;
     left: 50px;
@@ -102,7 +105,7 @@ h1, h2 {
 
 /* About Section */
 
-#club-ethos {
+#about {
     height: 600px;
 }
 
@@ -124,7 +127,7 @@ h1, h2 {
 }
 
 hr {
-    border-top: 1px solid #ffffff;
+    border-top: 1px solid #000080;
     width: 100%;
     margin: 5px 0;
 }
@@ -164,13 +167,10 @@ hr {
 #contact {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
-    color: #ffffff;
-}
-
-#address {
-    font-family: Montserrat, sans-serif;
-    font-weight: 300;
-    color: #ffffff;
+    color: #000080, #ffffff;
+    width: 50%;
+    clear: both;
+    margin-bottom: 20px;
 }
 
 
@@ -199,7 +199,7 @@ footer {
 
 }
 
-.social-media > li {
+.social-media>li {
     display: inline;
 }
 
@@ -207,5 +207,5 @@ footer {
     font-size: 180%;
     margin: 2%;
     padding: 5%;
-    color:#000080;
+    color: #000080;
 }
