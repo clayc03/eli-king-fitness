@@ -9,7 +9,8 @@
 body {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
-    color: #707070;
+    color: #ffffff;
+    background-color: lightslategray;
 }
 
 /* headings and logo */
@@ -19,7 +20,7 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: 
-    #376087;
+    #000080;
 }
 
 /* navigation links */
@@ -45,11 +46,11 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #707070;
+    border-bottom: 1px solid #ffffff;
 }
 
 .active {
-    border-bottom: 1px solid #707070;
+    border-bottom: 1px solid #ffffff;
 }
 
 #logo {
@@ -123,7 +124,7 @@ h1, h2 {
 }
 
 hr {
-    border-top: 1px solid #707070;
+    border-top: 1px solid #ffffff;
     width: 100%;
     margin: 5px 0;
 }
@@ -163,14 +164,13 @@ hr {
 #contact {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
-    color: #707070;
+    color: #ffffff;
 }
 
 #address {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
-    color: #707070;
-    position: right;
+    color: #ffffff;
 }
 
 
@@ -207,5 +207,5 @@ footer {
     font-size: 180%;
     margin: 2%;
     padding: 5%;
-    color:#707070;
+    color:#000080;
 }
