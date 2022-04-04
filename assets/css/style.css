@@ -18,7 +18,8 @@ h1, h2 {
     font-family: Open Sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #000000;
+    color: 
+    #376087;
 }
 
 /* navigation links */
@@ -81,13 +82,14 @@ h1, h2 {
     font-size: 120%;
     font-family: Open Sans, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
+    text-align: left;
 
     width: 300px;
     height: 100px;
 
-    padding-top: 25px;
-    padding-left: 10px;
+    padding-top: 30px;
+    padding-left: 20px;
 
     background-color: rgba(0,0,128);
 
@@ -110,14 +112,31 @@ h1, h2 {
     border: none;
 }
 
+/* Contact & Address text */
+
+.contact {
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    color: #707070;
+}
+
+.address {
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    color: #707070;
+    position: right;
+}
+
 /* footer */
 
 footer {
-    height: 150px;
+    height: 100px;
+    margin: 0%;
 }
 
 .social-media {
     text-align: center;
+
 }
 
 .social-media > li {
