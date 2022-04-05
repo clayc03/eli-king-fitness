@@ -14,8 +14,7 @@ body {
 
 /* headings and logo */
 
-h1,
-h2 {
+h1, h2 {
     font-family: Open Sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -70,7 +69,7 @@ h4 {
 /* header-image and cover text*/
 
 #header-outer {
-    height: 600px;
+    height: 450px;
     width: 100%;
     overflow: hidden;
 
