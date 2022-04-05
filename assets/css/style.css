@@ -30,18 +30,17 @@ h4 {
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 50px;
+    line-height: 75px;
+    display: inline-block;
 }
 
 /* navigation links */
 
 #menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-}
-
-#menu, #logo {
     line-height: 75px;
+    display: inline-block;
+    float: right;
 }
 
 #menu li {
@@ -96,7 +95,7 @@ h4 {
 /* hero-image and cover text*/
 
 #hero-outer {
-    height: 350px;
+    height: 100%;
     width: 100%;
     overflow: hidden;
 
@@ -139,7 +138,8 @@ cover-text h2 {
 /* About Section */
 
 #about {
-    height: 600px;
+    width: 100%;
+    display: inline-block;
 }
 
 #left-about {
@@ -192,21 +192,23 @@ hr {
 
 
 /* Two equal columns that floats next to each other */
+
+.row {
+    display:inline-block; 
+    width: 100%
+}
+
 .column {
     float: left;
     width: 48%;
     padding: 10px;
-    height: 250px;
   }
 
 /* footer */
 
-footer {
-    height: 120px;
-}
-
 .social-media {
     text-align: center;
+    background-color: lightgrey;
 }
 
 .social-media > li {
@@ -215,7 +217,8 @@ footer {
 
 .social-media i {
     font-size: 180%;
-    margin: 2%;
-    padding: 5%;
+    margin: 15px;
+    padding: 25px;
     color: #004c99;
 }
+
