@@ -32,39 +32,33 @@ h4 {
 
 /* navigation links */
 
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-}
-
-#menu,
-#logo {
-    line-height: 70px;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 40px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid #707070;
-}
-
-.active {
-    border-bottom: 1px solid #707070;
-}
-
-#logo {
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #004c99;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
     float: left;
-    font-size: 300%;
-}
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #707070;
+    color: #ffffff;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #707070;
+    color: white;
+  }
 
 /* header-image and cover text*/
 
@@ -167,7 +161,7 @@ hr {
 
 #contact {
     font-family: Open Sans, Montserrat, sans-serif;
-    font-weight: 300;
+    font-weight: 300px;
     color: #004c99, #707070;
     width: 50%;
     clear: both;
@@ -190,7 +184,7 @@ hr {
 /* footer */
 
 footer {
-    height: 100px;
+    height: 50px;
     margin: 0%;
 }
 
