@@ -14,14 +14,14 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1 {
     font-family: Open Sans, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     color: #004c99;
 }
 
-h3 {
+h2 {
     font-family: Open Sans, sans-serif;
     text-transform: capitalize;
     letter-spacing: 4px;
@@ -32,34 +32,7 @@ h3 {
     float: left;
     font-size: 50px;
     line-height: 75px;
-    display: inline-block;
-}
-
-/* navigation links */
-
-#menu {
-    line-height: 75px;
-    display: inline-block;
-    float: right;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid #707070;
-}
-
-.active {
-    border-bottom: 1px solid #707070;
+    margin-left: 40px
 }
 
 /* navigation links */
@@ -67,29 +40,27 @@ h3 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-}
-
-#menu, #logo {
     line-height: 75px;
+    float: right;
 }
 
 #menu li {
     float: right;
-    list-style-type: none;
-    margin-right: 30px;
+    list-style-type: square;
+    margin-right: 40px;
 }
 
 #menu a {
     text-decoration: none;
-    color: inherit;
+    color: #707070;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #707070;
+    border-bottom: 2px solid #707070;
 }
 
 .active {
-    border-bottom: 1px solid #707070;
+    border-bottom: 2px solid #707070;
 }
 
 /* hero-image and cover text*/
@@ -98,13 +69,7 @@ h3 {
     height: 500px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
-}
-
-#cover-text,
-cover-text h4 {
-    color: #fff;
 }
 
 #hero-image {
@@ -120,6 +85,7 @@ cover-text h4 {
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: left;
+    color: #ffffff;
 
     width: 300px;
     height: 100px;
@@ -143,14 +109,14 @@ cover-text h4 {
 }
 
 #left-about {
-    padding-top: 30px;
-    width: 33%;
+    padding-top: 40px;
+    width: 40%;
     float: left;
 }
 
 #right-about {
-    padding-top: 30px;
-    width: 33%;
+    padding-top: 40px;
+    width: 40%;
     float: right;
 }
 
@@ -176,13 +142,14 @@ hr {
     margin-bottom: 50px;
 }
 
-.right-about-heading h2 {
-    text-align: right;
+.right-about-heading p {
+    text-align: left;
 }
 
-.right-about-heading p {
-    text-align: right;
+.right-about-heading h2 {
+    text-align: left;
 }
+
 
 #welcome {
     text-align: center;
@@ -379,10 +346,8 @@ hr {
 
   /* Meet Eli Section */
 
-  .eli-section {
-    position: absolute;
+  #meet-eli {
     width: 50%;
-    height: 60%;
     margin-bottom: 16px;
     padding: 0 8px;
     text-align: center;
@@ -391,7 +356,7 @@ hr {
 
 
 @media screen and (max-width: 650px) {
-  .column {
+  #center {
     width: 100%;
     display: block;
   }
