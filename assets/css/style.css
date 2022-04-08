@@ -32,7 +32,8 @@ h2 {
     float: left;
     font-size: 50px;
     line-height: 75px;
-    margin-left: 40px
+    margin-left: 40px;
+    height: 100px;
 }
 
 /* navigation links */
@@ -41,7 +42,8 @@ h2 {
     font-size: 110%;
     letter-spacing: 4px;
     line-height: 75px;
-    float: right;
+    height: 100px;
+
 }
 
 #menu li {
@@ -150,13 +152,11 @@ hr {
     text-align: left;
 }
 
-
 #welcome {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
 }
-
 
 /* Two equal columns that floats next to each other */
 
@@ -228,6 +228,8 @@ footer {
         height: 150px;
         padding: 0;
      }
+
+    }
  
  /* For medium screen sizes from 900px wide and down */
  @media screen and (max-width: 950px) {
@@ -288,13 +290,13 @@ footer {
      #about {
         width: 90%;
         height: 1200px;
-        margin: 0 auto;
+        margin: 0 auto;}
  
-     .left-about-heading, .right-about-heading {
+    .left-about-heading, .right-about-heading {
         width: inherit;
      }
  
-     .left-about-heading h2, .right-about-heading h2 {
+    .left-about-heading h2, .right-about-heading h2 {
         width: 100%;
         text-align: center;
      }
@@ -306,6 +308,7 @@ footer {
  
      #photos {
         column-count: 1;
+     }
      }
 
 /* For medium screen sizes from 400px wide and down */
@@ -346,6 +349,7 @@ footer {
     #photos {
        column-count: 1;
     }
+}
 
 
   /* Meet Eli Section */
@@ -364,10 +368,55 @@ footer {
   }
 }
 
-   /* Get in Touch */
+   /* Contact */
 
+#contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 4px;
+}
 
-
-
-
+#contact > input[type=text],
+#contact > input[type=email],
+#contact > select, 
+#contact > textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #707070; 
+    border-radius: 2px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
   
+#contact > input[type=submit]:hover{
+    background-color: #707070;
+  }
+
+
+/* Pricing section */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
