@@ -158,25 +158,19 @@ hr {
     font-size: 40px;
 }
 
-/* Two equal columns that floats next to each other */
+/* Contact details & Google map section*/
 
-.column {
-    float: left;
-    width: 50%;
+.details {
+    width: 100%;
     padding: 10px;
     height: 300px;
-}
-
-.row:after {
-    content: "";
-    display: inline-block;
     clear: both;
 }
 
 /* footer */
 
 footer {
-    height: 100px;
+    height: 150%;
 }
 
 .social-media {
@@ -371,14 +365,6 @@ footer {
     margin: 0 auto;
     text-align: center;
     display: block;
-}
-
-
-@media screen and (max-width: 400px) {
-    #meet-eli {
-        width: 100%;
-        display: block;
-    }
 }
 
 /* Contact */
