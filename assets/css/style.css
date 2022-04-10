@@ -106,57 +106,58 @@ h2 {
 /* About Section */
 
 #about {
-    width: 100%;
-    display: inline-block;
-}
+    height: 600px;
 
-#left-about {
-    padding-top: 20px;
+ }
+ 
+ #left-about {
+    padding-top: 30px;
     width: 40%;
     float: left;
-}
-
-#right-about {
-    padding-top: 20px;
+ }
+ 
+ #right-about {
+    padding-top: 30px;
     width: 40%;
     float: right;
-}
-
-hr {
-    border-top: 1px solid #004c99;
+ }
+ 
+ 
+ hr {
+    border-top: 1px solid #707070;
     width: 100%;
     margin: 5px 0;
-}
-
-.left-about-heading {
-    width: 60%;
+ }
+ 
+ .left-about-heading {
+    width: 70%;
     float: right;
     line-height: 20px;
     clear: both;
-    margin-bottom: 40px;
-}
-
-.right-about-heading {
-    width: 60%;
+    margin-bottom: 50px;
+ }
+ 
+ .right-about-heading {
+    width: 70%;
     float: left;
     line-height: 20px;
     clear: both;
-    margin-bottom: 40px;
-}
-
-.right-about-heading p {
+    margin-bottom: 50px;
+ }
+ 
+ .right-about-heading h2 {
     text-align: left;
-}
-
-.right-about-heading h2 {
+ }
+ 
+ .right-about-heading p {
     text-align: left;
-}
-
-#welcome {
+ }
+ 
+ #welcome {
     text-align: center;
     margin: 20px 0;
-    font-size: 40px;
-}
+    font-size: 290%;
+ }
 
 /* Contact details & Google map section*/
 
