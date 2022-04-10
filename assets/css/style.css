@@ -39,8 +39,8 @@ h2 {
 /* navigation links */
 
 #menu {
-    font-size: 110%;
-    letter-spacing: 4px;
+    font-size: 18px;
+    letter-spacing: 2px;
     line-height: 75px;
     height: 100px;
 
@@ -48,8 +48,8 @@ h2 {
 
 #menu li {
     float: right;
-    list-style-type: square;
-    margin-right: 40px;
+    list-style-type: disc;
+    margin-right: 20px;
 }
 
 #menu a {
@@ -82,7 +82,7 @@ h2 {
 }
 
 #cover-text {
-    font-size: 120%;
+    font-size: 20px;
     font-family: Open Sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -92,7 +92,7 @@ h2 {
     width: 300px;
     height: 100px;
 
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 20px;
 
     background-color: rgba(0, 76, 153);
@@ -111,13 +111,13 @@ h2 {
 }
 
 #left-about {
-    padding-top: 40px;
+    padding-top: 20px;
     width: 40%;
     float: left;
 }
 
 #right-about {
-    padding-top: 40px;
+    padding-top: 20px;
     width: 40%;
     float: right;
 }
@@ -133,7 +133,7 @@ hr {
     float: right;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .right-about-heading {
@@ -141,7 +141,7 @@ hr {
     float: left;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .right-about-heading p {
@@ -155,7 +155,7 @@ hr {
 #welcome {
     text-align: center;
     margin: 20px 0;
-    font-size: 280%;
+    font-size: 40px;
 }
 
 /* Two equal columns that floats next to each other */
@@ -165,10 +165,12 @@ hr {
     width: 50%;
     padding: 10px;
     height: 300px;
-  }
+}
 
-.row {display: inline-block;
-width: 100%;
+.row:after {
+    content: "";
+    display: inline-block;
+    clear: both;
 }
 
 /* footer */
@@ -182,7 +184,7 @@ footer {
     background-color: lightgrey;
 }
 
-.social-media > li {
+.social-media>li {
     display: inline;
 }
 
@@ -199,179 +201,190 @@ footer {
 
 @media screen and (max-width: 1200px) {
     #about {
-        width: 65%;
+        width: 60%;
         height: 1200px;
         margin: 0 auto;
-     }
-  
-     #welcome {
+    }
+
+    #welcome {
         padding: 30px 0;
         margin: 0;
-     }
-  
-     #left-about, #right-about {
+    }
+
+    #left-about,
+    #right-about {
         width: 100%;
         float: left;
         padding: 0;
-     }
-  
-     #center-about {
+    }
+
+    #center-about {
         clear: both;
         width: 100%;
         float: left;
         padding: 0;
-     }
-  
-     #times > div {
+    }
+
+    #times>div {
         width: 100%;
         clear: both;
         height: 150px;
         padding: 0;
-     }
-
     }
- 
- /* For medium screen sizes from 900px wide and down */
- @media screen and (max-width: 950px) {
- 
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-     }
-
-     #cover-text {
-        left: 0;
-     }
-
-     #about {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
-     }
-
-     .left-about-heading, .right-about-heading {
-        width: inherit;
-     }
-
-     .left-about-heading h2, .right-about-heading h2 {
-        width: 100%;
-        text-align: center;
-     }
-
-     .left-about-heading p, .right-about-heading p {
-        text-align: center;
-        padding: 0 20px;
-     }
-
-     #photos {
-        column-count: 2;
-     }
 
 }
- 
- /* For small screen sizes 650px and down */
- 
- @media screen and (max-width: 700px) {
+
+/* For medium screen sizes from 900px wide and down */
+@media screen and (max-width: 900px) {
+
     #menu {
         clear: left;
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
-     }
-
-     #cover-text {
-        left: 0;
-     }
-
-     #about {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;}
- 
-    .left-about-heading, .right-about-heading {
-        width: inherit;
-     }
- 
-    .left-about-heading h2, .right-about-heading h2 {
-        width: 100%;
-        text-align: center;
-     }
- 
-     .left-about-heading p, .right-about-heading p {
-        text-align: center;
-        padding: 0 20px;
-     }
- 
-     #photos {
-        column-count: 1;
-     }
-     }
-
-/* For medium screen sizes from 400px wide and down */
-@media screen and (max-width: 400px) {
- 
-    #menu {
-       clear: left;
-       float: left;
-       margin-left: 30px;
-       margin-bottom: 20px;
-       line-height: 25px;
     }
 
     #cover-text {
-       left: 0;
+        left: 0;
     }
 
     #about {
-       width: 90%;
-       height: 1100px;
-       margin: 0 auto;
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
     }
 
-    .left-about-heading, .right-about-heading {
-       width: inherit;
+    .left-about-heading,
+    .right-about-heading {
+        width: inherit;
     }
 
-    .left-about-heading h2, .right-about-heading h2 {
-       width: 100%;
-       text-align: center;
+    .left-about-heading h2,
+    .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
     }
 
-    .left-about-heading p, .right-about-heading p {
-       text-align: center;
-       padding: 0 20px;
+    .left-about-heading p,
+    .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
     }
 
     #photos {
-       column-count: 1;
+        column-count: 2;
+    }
+
+}
+
+/* For small screen sizes 650px and down */
+
+@media screen and (max-width: 700px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #about {
+        width: 100%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading,
+    .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p,
+    .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    #photos {
+        column-count: 1;
+    }
+}
+
+/* For medium screen sizes from 400px wide and down */
+@media screen and (max-width: 400px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #about {
+        width: 90%;
+        height: 1100px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading,
+    .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p,
+    .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    #photos {
+        column-count: 1;
     }
 }
 
 
-  /* Meet Eli Section */
+/* Meet Eli Section */
 
-  #meet-eli {
+#meet-eli {
     margin: 0 auto;
     text-align: center;
     display: block;
-  }
+}
 
 
 @media screen and (max-width: 400px) {
-  #meet-eli {
-    width: 100%;
-    display: block;
-  }
+    #meet-eli {
+        width: 100%;
+        display: block;
+    }
 }
 
-   /* Contact */
+/* Contact */
 
 #contact {
-    width: 100%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -381,41 +394,40 @@ footer {
     border-radius: 4px;
 }
 
-#contact > input[type=text],
-#contact > input[type=email],
-#contact > select, 
-#contact > textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 2px solid #707070; 
-    border-radius: 2px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical 
+#contact>input[type=text],
+#contact>input[type=email],
+#contact>select,
+#contact>textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #707070;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
 
-  }
-  
-#contact > input[type=submit]:hover{
+#contact>input[type=submit]:hover {
     background-color: lightskyblue;
-  }
+}
 
 
 /* Pricing section */
 
 * {
     box-sizing: border-box;
-  }
-  
+}
+
 .column {
     float: left;
     width: 33.33%;
     padding: 10px;
     height: 500px;
-  }
-  
+}
+
 .row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
