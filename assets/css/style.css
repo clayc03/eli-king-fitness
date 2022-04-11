@@ -163,12 +163,14 @@ hr {
 
 #parent {
     display: flex;
-    height: 350%px;
+    height: 350%;
   }
+
   #narrow {
     width: 50%;
     float: left;
   }
+
   #wide {
     width: 50%;
     float: right;
