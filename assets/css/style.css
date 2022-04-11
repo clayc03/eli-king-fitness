@@ -108,70 +108,77 @@ h2 {
 #about {
     height: 600px;
 
- }
- 
- #left-about {
+}
+
+#left-about {
     padding-top: 30px;
     width: 40%;
     float: left;
- }
- 
- #right-about {
+}
+
+#right-about {
     padding-top: 30px;
     width: 40%;
     float: right;
- }
- 
- 
- hr {
+}
+
+
+hr {
     border-top: 1px solid #707070;
     width: 100%;
     margin: 5px 0;
- }
- 
- .left-about-heading {
+}
+
+.left-about-heading {
     width: 70%;
     float: right;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
- }
- 
- .right-about-heading {
+}
+
+.right-about-heading {
     width: 70%;
     float: left;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
- }
- 
- .right-about-heading h2 {
+}
+
+.right-about-heading h2 {
     text-align: left;
- }
- 
- .right-about-heading p {
+}
+
+.right-about-heading p {
     text-align: left;
- }
- 
- #about-heading {
+}
+
+#about-heading {
     text-align: center;
     margin: 20px 0;
     font-size: 270%;
- }
+}
 
 /* Contact details & Google map section*/
 
-.details {
-    width: 100%;
-    padding: 10px;
-    height: 300px;
-    clear: both;
-}
+#parent {
+    display: flex;
+    height: 350%px;
+  }
+  #narrow {
+    width: 50%;
+    float: left;
+  }
+  #wide {
+    width: 50%;
+    float: right;
+    flex: 1;
+  }
 
 /* footer */
 
 footer {
-    height: 150%;
+    height: 120%;
 }
 
 .social-media {
