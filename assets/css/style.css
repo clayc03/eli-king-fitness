@@ -377,6 +377,13 @@ footer {
     display: block;
 }
 
+#eli-about{
+    padding-top: 30px;
+    width: 40%;
+    text-align: left;
+    margin-left: 250px;
+}
+
 /* Contact */
 
 #contact {
