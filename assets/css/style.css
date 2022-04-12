@@ -32,7 +32,7 @@ h2 {
     float: left;
     font-size: 50px;
     line-height: 75px;
-    margin-left: 40px;
+    margin-left: 20px;
     height: 100px;
 }
 
@@ -423,19 +423,49 @@ footer {
 
 /* Pricing section */
 
-* {
-    box-sizing: border-box;
+#prices {
+    height: 2300px;
 }
 
-.column {
+#left-prices {
+    padding-top: 20px;
+    width: 40%;
     float: left;
-    width: 33.33%;
-    padding: 10px;
-    height: 500px;
 }
 
-.row:after {
-    content: "";
-    display: table;
+#right-prices {
+    padding-top: 20px;
+    width: 40%;
+    float: right;
+}
+
+
+hr {
+    border-top: 1px solid #707070;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-prices-heading {
+    width: 70%;
+    float: right;
+    line-height: 30px;
     clear: both;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.right-prices-heading {
+    width: 70%;
+    float: left;
+    line-height: 30px;
+    clear: both;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+#prices-heading {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
 }
