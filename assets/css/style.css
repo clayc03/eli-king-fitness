@@ -428,13 +428,13 @@ footer {
 }
 
 #left-prices {
-    padding-top: 20px;
+    padding-top: 10px;
     width: 40%;
     float: left;
 }
 
 #right-prices {
-    padding-top: 20px;
+    padding-top: 10px;
     width: 40%;
     float: right;
 }
@@ -449,19 +449,19 @@ hr {
 .left-prices-heading {
     width: 70%;
     float: right;
-    line-height: 30px;
+    line-height: 20px;
     clear: both;
-    margin-left: 40px;
-    margin-bottom: 40px;
+    margin-left: 25px;
+    margin-bottom: 20px;
 }
 
 .right-prices-heading {
     width: 70%;
     float: left;
-    line-height: 30px;
+    line-height: 20px;
     clear: both;
-    margin-left: 40px;
-    margin-bottom: 40px;
+    margin-left: 25px;
+    margin-bottom: 20px;
 }
 
 #prices-heading {
