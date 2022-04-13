@@ -423,15 +423,24 @@ footer {
 
 /* Pricing section */
 
-#prices {
-    height: 600px;
-}
-
 #left-prices {
     padding-top: 25px;
     width: 60%;
     float: left;
-    margin-left:70px;
+    margin-left:110px;
+    margin-right: 70px;
+    margin-bottom: 15px;
+    background-color: lightblue;
+    height: 50%;
+}
+
+.left-prices-heading {
+    width: 60%;
+    float: center;
+    line-height: 15px;
+    clear: both;
+    margin-left:35px;
+    margin-bottom: 10px;
 }
 
 hr {
@@ -440,17 +449,7 @@ hr {
     margin: 5px 0;
 }
 
-.left-prices-heading {
-    width: 60%;
-    float: right;
-    line-height: 15px;
-    clear: both;
-    margin-left:20px;
-    margin-bottom: 10px;
-}
-
 #prices-heading {
     text-align: center;
-    margin: 15px 0;
-    font-size: 260%;
+    font-size: 250%;
 }
