@@ -175,9 +175,9 @@ hr {
 
   #wide {
     width: 60%;
-    flex: 1;
     margin-left: 100px;
     margin-right: 150px;
+    flex: 1;
   }
 
 
