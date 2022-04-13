@@ -163,19 +163,23 @@ hr {
 
 #parent {
     display: flex;
-    height: 350%;
+    height: 200%;
+    width: 100%;
   }
 
   #narrow {
-    width: 50%;
+    width: 40%;
     float: left;
+    margin-left: 150px;
   }
 
   #wide {
-    width: 50%;
-    float: right;
+    width: 60%;
     flex: 1;
+    margin-left: 100px;
+    margin-right: 150px;
   }
+
 
 /* footer */
 
