@@ -165,20 +165,20 @@ hr {
     display: flex;
     height: 200%;
     width: 100%;
-  }
+}
 
-  #narrow {
+#narrow {
     width: 40%;
     float: left;
     margin-left: 150px;
-  }
+}
 
-  #wide {
+#wide {
     width: 60%;
     margin-left: 100px;
     margin-right: 150px;
     flex: 1;
-  }
+}
 
 
 /* footer */
@@ -205,81 +205,19 @@ footer {
 
 /* media queries */
 
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
-@media (min-width: 1281px) {
-  
-    /* CSS */
-    
-  }
-  
-  /* 
-    ##Device = Laptops, Desktops
-    ##Screen = B/w 1025px to 1280px
-  */
-  
-  @media (min-width: 1025px) and (max-width: 1280px) {
-    
-    /* CSS */
-    
-  }
-  
-  /* 
-    ##Device = Tablets, Ipads (portrait)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) {
-    
-    /* CSS */
-    
-  }
-  
-  /* 
-    ##Device = Tablets, Ipads (landscape)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    
-    /* CSS */
-    
-  }
-  
-  /* 
-    ##Device = Low Resolution Tablets, Mobiles (Landscape)
-    ##Screen = B/w 481px to 767px
-  */
-  
-  @media (min-width: 481px) and (max-width: 767px) {
-    
-    /* CSS */
-    
-  }
-  
-  /* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-  */
-  
-  @media (min-width: 320px) and (max-width: 480px) {
-    
-    /* CSS */
-    
-  }
-
-/* media queries */
-
-/* For larger to medium screens size from 1200px wide and down */
-
 @media screen and (max-width: 1200px) {
     #about {
-        width: 60%;
+        width: 65%;
         height: 1200px;
         margin: 0 auto;
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 
     #welcome {
@@ -294,24 +232,13 @@ footer {
         padding: 0;
     }
 
-    #center-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
+    hr {
+        display: none;
     }
-
-    #times>div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
-    }
-
 }
 
-/* For medium screen sizes from 900px wide and down */
-@media screen and (max-width: 900px) {
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
 
     #menu {
         clear: left;
@@ -349,14 +276,18 @@ footer {
     }
 
     #photos {
-        column-count: 2;
+        column-count: 1;
     }
 
 }
 
-/* For small screen sizes 650px and down */
+/* For small screen sizes 800px and down */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 1;
+    }
+
     #menu {
         clear: left;
         float: left;
@@ -365,36 +296,6 @@ footer {
         line-height: 25px;
     }
 
-    #cover-text {
-        left: 0;
-    }
-
-    #about {
-        width: 100%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    .left-about-heading,
-    .right-about-heading {
-        width: inherit;
-    }
-
-    .left-about-heading h2,
-    .right-about-heading h2 {
-        width: 100%;
-        text-align: center;
-    }
-
-    .left-about-heading p,
-    .right-about-heading p {
-        text-align: center;
-        padding: 0 20px;
-    }
-
-    #photos {
-        column-count: 1;
-    }
 }
 
 /* For medium screen sizes from 400px wide and down */
@@ -436,8 +337,9 @@ footer {
     }
 
     #photos {
-        column-count: 1;
+        column-count: 2;
     }
+
 }
 
 
@@ -449,7 +351,7 @@ footer {
     display: block;
 }
 
-#eli-about{
+#eli-about {
     padding-top: 30px;
     width: 60%;
     text-align: left;
@@ -504,7 +406,7 @@ footer {
     margin-left: 250px;
     margin-right: 250px;
     margin-bottom: 10px;
-  }
+}
 
 #prices-heading {
     text-align: center;
