@@ -211,7 +211,6 @@ footer {
 */
 
 @media (min-width: 1281px) {
-    
   
     /* CSS */
     
@@ -510,4 +509,13 @@ footer {
 #prices-heading {
     text-align: center;
     font-size: 250%;
+}
+
+/* Form-complete file styling */
+
+.form-complete {
+    text-align: center;
+    margin-top: 5px;
+    height: 400px;
+    font-size: large;
 }
