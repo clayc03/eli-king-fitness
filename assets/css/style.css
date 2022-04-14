@@ -427,30 +427,16 @@ footer {
 
 /* Pricing section */
 
-#left-prices {
-    padding-top: 25px;
-    width: 60%;
-    margin-left:110px;
-    margin-right: 70px;
-    margin-bottom: 15px;
-    background-color: lightblue;
+.center-prices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50%;
-}
-
-.left-prices-heading {
-    width: 60%;
-    float: center;
-    line-height: 15px;
-    clear: both;
-    margin-left:35px;
+    background-color: lightblue;
+    margin-left: 250px;
+    margin-right: 250px;
     margin-bottom: 10px;
-}
-
-hr {
-    border-top: 1px solid #707070;
-    width: 100%;
-    margin: 5px 0;
-}
+  }
 
 #prices-heading {
     text-align: center;
