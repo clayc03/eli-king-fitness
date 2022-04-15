@@ -179,7 +179,7 @@ hr {
     margin-right: 150px;
     flex: 1;
 }
-  
+
 
 /* footer */
 
@@ -205,7 +205,560 @@ footer {
 
 /* media queries */
 
+/* For larger to medium screens size from 1200px wide and down */
 
+
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 60%;
+        height: 1500px;
+        margin: 0 auto;
+    }
+
+
+    #welcome {
+        padding: 20px 0;
+        margin: 0;
+    }
+
+
+    #left-about,
+    #right-about {
+        width: 90%;
+        float: left;
+        padding: 0;
+    }
+
+
+    #center-about {
+        clear: both;
+        width: 90%;
+        float: left;
+        padding: 0;
+    }
+
+
+    #times>div {
+        width: 90%;
+        clear: both;
+        height: 120px;
+        padding: 0;
+    }
+
+
+    hr {
+        display: none;
+    }
+
+    #parent {
+        display: flex;
+        height: 200%;
+        width: 100%;
+    }
+
+    #narrow {
+        width: 40%;
+        float: left;
+        margin-left: 120px;
+    }
+
+    #wide {
+        width: 60%;
+        margin-left: 50px;
+        margin-right: 100px;
+        flex: 1;
+    }
+
+    #meet-eli {
+        margin: 0 auto;
+        text-align: left;
+        display: block;
+    }
+
+    #eli-about {
+        padding-top: 20px;
+        width: 50%;
+        text-align: left;
+        margin-left: 150px;
+    }
+
+    #contact {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 1rem;
+        border-radius: 4px;
+    }
+
+    #contact>input[type=text],
+    #contact>input[type=email],
+    #contact>select,
+    #contact>textarea {
+        width: 100%;
+        padding: 12px;
+        border: 2px solid #707070;
+        border-radius: 2px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-left: 250px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    #contact>input[type=submit]:hover {
+        background-color: lightskyblue;
+    }
+
+    #contact-headings {
+        margin-left: 150px;
+    }
+
+    .center-prices {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        background-color: lightblue;
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-bottom: 10px;
+    }
+
+    #prices-heading {
+        text-align: center;
+        font-size: 150%;
+    }
+
+    .form-complete {
+        text-align: center;
+        margin-top: 5px;
+        height: 300px;
+        font-size: large;
+    }
+}
+
+
+/* For medium screen sizes from 900px wide and down */
+@media screen and (max-width: 900px) {
+
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        line-height: 20px;
+    }
+
+
+    #cover-text {
+        left: 0;
+    }
+
+
+    #about {
+        width: 80%;
+        height: 1500px;
+        margin: 0 auto;
+    }
+
+
+    .left-about-heading,
+    .right-about-heading {
+        width: inherit;
+    }
+
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
+        width: 100%;
+        text-align: left;
+    }
+
+
+    .left-about-heading p,
+    .right-about-heading p {
+        text-align: left;
+        padding: 0 15px;
+    }
+
+
+    #photos {
+        column-count: 1;
+    }
+
+    #parent {
+        display: flex;
+        height: 200%;
+        width: 100%;
+    }
+
+    #narrow {
+        width: 40%;
+        float: left;
+        margin-left: 120px;
+    }
+
+    #wide {
+        width: 60%;
+        margin-left: 50px;
+        margin-right: 100px;
+        flex: 1;
+    }
+
+    #meet-eli {
+        margin: 0 auto;
+        text-align: left;
+        display: block;
+    }
+
+    #eli-about {
+        padding-top: 20px;
+        width: 50%;
+        text-align: left;
+        margin-left: 150px;
+    }
+
+    #contact {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 1rem;
+        border-radius: 4px;
+    }
+
+    #contact>input[type=text],
+    #contact>input[type=email],
+    #contact>select,
+    #contact>textarea {
+        width: 100%;
+        padding: 12px;
+        border: 2px solid #707070;
+        border-radius: 2px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-left: 250px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    #contact>input[type=submit]:hover {
+        background-color: lightskyblue;
+    }
+
+    #contact-headings {
+        margin-left: 150px;
+    }
+
+    .center-prices {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        background-color: lightblue;
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-bottom: 10px;
+    }
+
+    #prices-heading {
+        text-align: center;
+        font-size: 150%;
+    }
+
+    .form-complete {
+        text-align: center;
+        margin-top: 5px;
+        height: 300px;
+        font-size: large;
+    }
+
+}
+
+
+/* For small screen sizes 600px and down */
+@media screen and (max-width: 600px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        line-height: 10px;
+    }
+    
+    
+    #cover-text {
+        left: 0;
+    }
+    
+    
+    #about {
+        width: 50%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    
+    
+    .left-about-heading,
+    .right-about-heading {
+        width: inherit;
+    }
+    
+    
+    .left-about-heading h2,
+    .right-about-heading h2 {
+        width: 60%;
+        text-align: left;
+    }
+    
+    
+    .left-about-heading p,
+    .right-about-heading p {
+        text-align: left;
+        padding: 0 15px;
+    }
+    
+    
+    #photos {
+        column-count: 1;
+    }
+    
+    #parent {
+        display: flex;
+        height: 100%;
+        width: 50%;
+    }
+    
+    #narrow {
+        width: 40%;
+        float: left;
+        margin-left: 100px;
+    }
+    
+    #wide {
+        width: 60%;
+        margin-left: 30px;
+        margin-right: 70px;
+        flex: 1;
+    }
+    
+    #meet-eli {
+        margin: 0 auto;
+        text-align: left;
+        display: block;
+    }
+    
+    #eli-about {
+        padding-top: 20px;
+        width: 40%;
+        text-align: left;
+        margin-left: 100px;
+    }
+    
+    #contact {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 1rem;
+        border-radius: 4px;
+    }
+    
+    #contact>input[type=text],
+    #contact>input[type=email],
+    #contact>select,
+    #contact>textarea {
+        width: 60%;
+        padding: 12px;
+        border: 2px solid #707070;
+        border-radius: 2px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-left: 100px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+    
+    #contact>input[type=submit]:hover {
+        background-color: lightskyblue;
+    }
+    
+    #contact-headings {
+        margin-left: 100px;
+    }
+    
+    .center-prices {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        background-color: lightblue;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 10px;
+    }
+    
+    #prices-heading {
+        text-align: left;
+        font-size: 100%;
+    }
+    
+    .form-complete {
+        text-align: left;
+        margin-top: 5px;
+        height: 200px;
+        font-size: large;
+    }
+    
+    }
+
+/* For small screen sizes 300px and down */
+@media screen and (max-width: 300px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        line-height: 10px;
+    }
+    
+    
+    #cover-text {
+        left: 0;
+    }
+    
+    
+    #about {
+        width: 50%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    
+    
+    .left-about-heading,
+    .right-about-heading {
+        width: inherit;
+    }
+    
+    
+    .left-about-heading h2,
+    .right-about-heading h2 {
+        width: 60%;
+        text-align: left;
+    }
+    
+    
+    .left-about-heading p,
+    .right-about-heading p {
+        text-align: left;
+        padding: 0 15px;
+    }
+    
+    
+    #photos {
+        column-count: 1;
+    }
+    
+    #parent {
+        display: flex;
+        height: 100%;
+        width: 50%;
+    }
+    
+    #narrow {
+        width: 40%;
+        float: left;
+        margin-left: 100px;
+    }
+    
+    #wide {
+        width: 60%;
+        margin-left: 30px;
+        margin-right: 70px;
+        flex: 1;
+    }
+    
+    #meet-eli {
+        margin: 0 auto;
+        text-align: left;
+        display: block;
+    }
+    
+    #eli-about {
+        padding-top: 20px;
+        width: 40%;
+        text-align: left;
+        margin-left: 100px;
+    }
+    
+    #contact {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 1rem;
+        border-radius: 4px;
+    }
+    
+    #contact>input[type=text],
+    #contact>input[type=email],
+    #contact>select,
+    #contact>textarea {
+        width: 60%;
+        padding: 12px;
+        border: 2px solid #707070;
+        border-radius: 2px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-left: 100px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+    
+    #contact>input[type=submit]:hover {
+        background-color: lightskyblue;
+    }
+    
+    #contact-headings {
+        margin-left: 100px;
+    }
+    
+    .center-prices {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        background-color: lightblue;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 10px;
+    }
+    
+    #prices-heading {
+        text-align: left;
+        font-size: 100%;
+    }
+    
+    .form-complete {
+        text-align: left;
+        margin-top: 5px;
+        height: 200px;
+        font-size: large;
+    }
+    
+    }
 
 /* Meet Eli Section */
 
