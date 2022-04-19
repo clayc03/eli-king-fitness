@@ -15,14 +15,14 @@ body {
 /* headings and logo */
 
 h1 {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #004c99;
 }
 
 h2 {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-transform: capitalize;
     letter-spacing: 4px;
     color: #004c99;
@@ -83,7 +83,7 @@ h2 {
 
 #cover-text {
     font-size: 20px;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: left;
