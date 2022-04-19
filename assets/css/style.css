@@ -39,11 +39,14 @@ h2 {
 /* navigation links */
 
 #menu {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 18px;
     font-size: 18px;
     letter-spacing: 2px;
     line-height: 75px;
     height: 100px;
-
+    
 }
 
 #menu li {
