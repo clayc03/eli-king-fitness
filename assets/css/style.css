@@ -219,6 +219,7 @@ footer {
         width: 60%;
         height: 1500px;
         margin: 0 auto;
+        float: left;
     }
 
 
@@ -231,7 +232,6 @@ footer {
     #left-about,
     #right-about {
         width: 90%;
-        float: left;
         padding: 0;
     }
 
@@ -239,15 +239,6 @@ footer {
     #center-about {
         clear: both;
         width: 90%;
-        float: left;
-        padding: 0;
-    }
-
-
-    #times>div {
-        width: 90%;
-        clear: both;
-        height: 120px;
         padding: 0;
     }
 
@@ -260,11 +251,11 @@ footer {
         display: flex;
         height: 200%;
         width: 100%;
+        float: left;
     }
 
     #narrow {
         width: 40%;
-        float: left;
         margin-left: 120px;
     }
 
@@ -404,8 +395,8 @@ footer {
 
     #narrow {
         width: 40%;
-        float: left;
         margin-left: 120px;
+        float: left;
     }
 
     #wide {
