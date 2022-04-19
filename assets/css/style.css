@@ -23,6 +23,13 @@ h1 {
 
 h2 {
     font-family: Open Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #004c99;
+}
+
+h3 {
+    font-family: Open Sans, sans-serif;
     text-transform: capitalize;
     letter-spacing: 4px;
     color: #004c99;
@@ -820,7 +827,9 @@ footer {
     background-color: lightskyblue;
 }
 
-#contact-headings {
+#contact-heading-fname,#contact-heading-email,
+#contact-heading-subject,#contact-heading-message,
+#contact-heading-submit {
     margin-left: 250px;
 }
 
