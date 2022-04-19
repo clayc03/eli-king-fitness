@@ -159,6 +159,11 @@ hr {
     font-size: 270%;
 }
 
+#about-heading-h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 270%;
+
 /* Contact details & Google map section*/
 
 #parent {
