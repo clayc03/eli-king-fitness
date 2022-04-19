@@ -781,6 +781,13 @@ footer {
     margin-left: 250px;
 }
 
+#eli-about-details {
+    padding-top: 30px;
+    width: 60%;
+    text-align: left;
+    margin-left: 250px;
+}
+
 /* Contact */
 
 #contact {
