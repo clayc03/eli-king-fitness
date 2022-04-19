@@ -6,9 +6,10 @@ Users of this website will be able to learn more about the founder himself Eli K
 
 
 <u>*Disclaimer - This website is for educational purpose only*</u>
-
-Features
 <hr>
+
+<u>**Features**</u>
+
 
 
 
