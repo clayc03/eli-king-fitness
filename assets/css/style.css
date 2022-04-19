@@ -108,10 +108,11 @@ h2 {
 
 /* About Section */
 
-#about {
+
+/* #about {
     height: 600px;
 
-}
+} */
 
 #left-about {
     padding-top: 30px;
@@ -125,6 +126,44 @@ h2 {
     float: right;
 }
 
+/* test styling for card layout */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-bottom: 50px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.card {
+    padding: 10px;
+    width: max(44%, 300px);
+    flex-shrink: 2;
+}
+
+.card > img,
+.card iframe {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.card > div {
+    padding-bottom: 64.935064935%;
+    position: relative;
+}
+
+.card iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+
+/* end of test */
 
 hr {
     border-top: 1px solid #707070;
@@ -170,7 +209,8 @@ hr {
 
 /* Contact details & Google map section*/
 
-#parent {
+/* Original style */
+/* #parent {
     display: flex;
     height: 200%;
     width: 100%;
@@ -187,13 +227,14 @@ hr {
     margin-left: 100px;
     margin-right: 150px;
     flex: 1;
-}
+} */
+
 
 
 /* footer */
 
 footer {
-    height: 120%;
+    height: 100px;
 }
 
 .social-media {
@@ -214,11 +255,14 @@ footer {
 
 /* media queries */
 
-/* For larger to medium screens size from 1200px wide and down */
+/* For larger to medium screens size from 1100px wide and down */
 
 
-@media screen and (max-width: 1200px) {
-    #club-ethos {
+@media screen and (max-width: 1100px) {
+    
+
+}
+    /* #club-ethos {
         width: 60%;
         height: 1500px;
         margin: 0 auto;
@@ -337,12 +381,12 @@ footer {
         margin-top: 5px;
         height: 300px;
         font-size: large;
-    }
+    } */
 }
 
 
 /* For medium screen sizes from 900px wide and down */
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
 
 
     #menu {
@@ -483,7 +527,7 @@ footer {
 
 
 /* For small screen sizes 600px and down */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
 
     #menu {
         clear: left;
@@ -622,7 +666,7 @@ footer {
     }
 
 /* For small screen sizes 300px and down */
-@media screen and (max-width: 300px) {
+/* @media screen and (max-width: 300px) {
 
     #menu {
         clear: left;
@@ -758,7 +802,7 @@ footer {
         font-size: large;
     }
     
-    }
+    } */
 
 /* Meet Eli Section */
 
