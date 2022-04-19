@@ -12,7 +12,7 @@ Users of this website will be able to learn more about the founder himself Eli K
 1. **[Features](#features)**
 2. **[Testing](#testing)**
 3. **[Technology](#technology)**
-4. **[Testing](#testing)**
+4. **[Unfixed Bugs](#unfixed-bugs)**
 5. **[Deployment](#deployment)**
 6. **[Credits](#credits)**
 7. **[Screenshots](#screenshots)**
