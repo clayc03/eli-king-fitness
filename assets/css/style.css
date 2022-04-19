@@ -312,6 +312,17 @@ footer {
         margin-bottom: 10px;
     }
 }
+
+@media screen and (max-width: 400px){
+    #cover-text {
+        left: 50%;
+        transform: translateX(-50%);
+        height: auto;
+        padding: 20px;
+        width: 260px;
+    }
+    
+}
     /* #club-ethos {
         width: 60%;
         height: 1500px;
