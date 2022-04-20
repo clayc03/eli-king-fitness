@@ -46,7 +46,6 @@ h2 {
     letter-spacing: 2px;
     line-height: 75px;
     height: 100px;
-    
 }
 
 #menu li {
@@ -137,14 +136,14 @@ h2 {
     flex-shrink: 2;
 }
 
-.card > img,
+.card>img,
 .card iframe {
     width: 100%;
     max-height: 400px;
     object-fit: cover;
 }
 
-.card > div {
+.card>div {
     padding-bottom: 65%;
     position: relative;
 }
@@ -186,7 +185,8 @@ hr {
     text-align: left;
 }
 
-#about-heading,#about-heading-below {
+#about-heading,
+#about-heading-below {
     text-align: center;
     margin: 20px 0;
     font-size: 270%;
@@ -229,14 +229,14 @@ footer {
 }
 
 #eli-about {
-    padding-top: 30px;
     width: 800px;
     text-align: left;
+    margin-top: 20px;
     margin-left: 250px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
-#meet-eli > img {
+#meet-eli>img {
     width: 780px;
 }
 
@@ -268,8 +268,8 @@ footer {
     align-items: flex-start;
     gap: 16px;
     padding: 16px;
-    border-radius: 4px; 
-    }
+    border-radius: 4px;
+}
 
 
 #contact>input[type=text],
@@ -291,8 +291,10 @@ footer {
     background-color: lightskyblue;
 }
 
-#contact-heading-fname,#contact-heading-email,
-#contact-heading-subject,#contact-heading-message,
+#contact-heading-fname,
+#contact-heading-email,
+#contact-heading-subject,
+#contact-heading-message,
 #contact-heading-submit {
     margin-left: 250px;
 }
@@ -330,7 +332,7 @@ footer {
         gap: 34px;
     }
 
-    #menu > li {
+    #menu>li {
         float: none;
         margin-right: 0;
     }
@@ -343,8 +345,8 @@ footer {
 
 /* Header Section for larger to medium screens size from 600px wide and down */
 
-@media screen and (max-width: 600px){
-    header > a {
+@media screen and (max-width: 600px) {
+    header>a {
         text-decoration: none;
     }
 
@@ -369,7 +371,7 @@ footer {
 
 /* Cover-text Section for larger to medium screens size from 400px wide and down */
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px) {
     #cover-text {
         left: 50%;
         transform: translateX(-50%);
@@ -378,19 +380,22 @@ footer {
         width: 260px;
     }
 
-    #about-heading,#about-heading-below {
+    #about-heading,
+    #about-heading-below {
         font-size: 36px;
     }
-    
+
 }
 
 /* About Section for larger to medium screens size from 320px wide and down */
 
-@media screen and (max-width: 320px){
-    #about-heading,#about-heading-below {
+@media screen and (max-width: 320px) {
+
+    #about-heading,
+    #about-heading-below {
         font-size: 36px;
     }
-    
+
 }
 
 /* Meet Eli page for larger to medium screens size from 2000px wide and down */
@@ -405,7 +410,7 @@ footer {
         width: min(90%, 900px);
         padding: 0 16px;
     }
-    
+
     #eli-about {
         padding-top: 30px;
         width: min(90%, 900px);
@@ -414,7 +419,7 @@ footer {
         margin-left: 35px;
     }
 
-    #meet-eli > img {
+    #meet-eli>img {
         width: 800px;
     }
 
@@ -432,7 +437,7 @@ footer {
         width: min(90%, 1100px);
         padding: 0 16px;
     }
-    
+
     #eli-about {
         padding-top: 30px;
         padding-bottom: 30px;
@@ -442,7 +447,7 @@ footer {
         margin-left: 55px;
     }
 
-    #meet-eli > img {
+    #meet-eli>img {
         width: 840px;
     }
 
@@ -460,7 +465,7 @@ footer {
         width: min(80%, 900px);
         padding: 0 16px;
     }
-    
+
     #eli-about {
         padding-top: 30px;
         width: min(80%, 900px);
@@ -469,7 +474,7 @@ footer {
         margin-left: 5px;
     }
 
-    #meet-eli > img {
+    #meet-eli>img {
         width: 500px;
     }
 
@@ -487,7 +492,7 @@ footer {
         width: min(80%, 900px);
         padding: 0 16px;
     }
-    
+
     #eli-about {
         padding-top: 30px;
         width: min(80%, 900px);
@@ -496,7 +501,7 @@ footer {
         margin-left: 5px;
     }
 
-    #meet-eli > img {
+    #meet-eli>img {
         width: 300px;
     }
 
@@ -514,7 +519,7 @@ footer {
         width: min(80%, 900px);
         padding: 0 16px;
     }
-    
+
     #eli-about {
         padding-top: 30px;
         width: min(80%, 900px);
@@ -523,7 +528,7 @@ footer {
         margin-left: 5px;
     }
 
-    #meet-eli > img {
+    #meet-eli>img {
         width: 250px;
     }
 
@@ -542,7 +547,7 @@ footer {
         margin-right: 250px;
         margin-bottom: 30px;
     }
-    
+
     #prices-heading {
         text-align: center;
         font-size: 50px;
@@ -562,7 +567,7 @@ footer {
         margin-right: 200px;
         margin-bottom: 10px;
     }
-    
+
     #prices-heading {
         text-align: center;
         font-size: 40px;
@@ -583,7 +588,7 @@ footer {
         margin-bottom: 10px;
         font-size: 15px;
     }
-    
+
     #prices-heading {
         text-align: center;
         font-size: 35px;
@@ -605,7 +610,7 @@ footer {
         font-size: 15px;
         max-width: min(100%, 1100px);
     }
-    
+
     #prices-heading {
         text-align: center;
         font-size: 35px;
@@ -613,7 +618,7 @@ footer {
 }
 
 /* Prices and Plans page for larger to medium screens size from 320px wide and down */
- 
+
 @media screen and (max-width: 320px) {
     .center-prices {
         display: flex;
@@ -624,7 +629,7 @@ footer {
         margin-bottom: 10px;
         font-size: 15px;
     }
-    
+
     #prices-heading {
         text-align: center;
         font-size: 20px;
@@ -633,7 +638,7 @@ footer {
 
 /* Contact page Section for larger to medium screens size from 1900px wide and down */
 
-@media screen and (max-width: 1900px){
+@media screen and (max-width: 1900px) {
     #contact {
         width: 70%;
         display: flex;
@@ -642,10 +647,10 @@ footer {
         align-items: flex-start;
         gap: 16px;
         padding: 16px;
-        border-radius: 4px; 
-        }
-    
-    
+        border-radius: 4px;
+    }
+
+
     #contact>input[type=text],
     #contact>input[type=email],
     #contact>select,
@@ -660,13 +665,15 @@ footer {
         margin-bottom: 16px;
         resize: vertical;
     }
-    
+
     #contact>input[type=submit]:hover {
         background-color: lightskyblue;
     }
-    
-    #contact-heading-fname,#contact-heading-email,
-    #contact-heading-subject,#contact-heading-message,
+
+    #contact-heading-fname,
+    #contact-heading-email,
+    #contact-heading-subject,
+    #contact-heading-message,
     #contact-heading-submit {
         margin-left: 250px;
     }
@@ -674,7 +681,7 @@ footer {
 
 /* Contact page Section for larger to medium screens size from 1600px wide and down */
 
-@media screen and (max-width: 1600px){
+@media screen and (max-width: 1600px) {
     #contact {
         width: 70%;
         display: flex;
@@ -683,10 +690,10 @@ footer {
         align-items: flex-start;
         gap: 16px;
         padding: 16px;
-        border-radius: 4px; 
-        }
-    
-    
+        border-radius: 4px;
+    }
+
+
     #contact>input[type=text],
     #contact>input[type=email],
     #contact>select,
@@ -701,13 +708,15 @@ footer {
         margin-bottom: 16px;
         resize: vertical;
     }
-    
+
     #contact>input[type=submit]:hover {
         background-color: lightskyblue;
     }
-    
-    #contact-heading-fname,#contact-heading-email,
-    #contact-heading-subject,#contact-heading-message,
+
+    #contact-heading-fname,
+    #contact-heading-email,
+    #contact-heading-subject,
+    #contact-heading-message,
     #contact-heading-submit {
         margin-left: 150px;
     }
@@ -715,7 +724,7 @@ footer {
 
 /* Contact page Section for larger to medium screens size from 800px wide and down */
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
     #contact {
         width: 60%;
         display: flex;
@@ -724,10 +733,10 @@ footer {
         align-items: flex-start;
         gap: 16px;
         padding: 16px;
-        border-radius: 4px; 
-        }
-    
-    
+        border-radius: 4px;
+    }
+
+
     #contact>input[type=text],
     #contact>input[type=email],
     #contact>select,
@@ -742,13 +751,15 @@ footer {
         margin-bottom: 16px;
         resize: vertical;
     }
-    
+
     #contact>input[type=submit]:hover {
         background-color: lightskyblue;
     }
-    
-    #contact-heading-fname,#contact-heading-email,
-    #contact-heading-subject,#contact-heading-message,
+
+    #contact-heading-fname,
+    #contact-heading-email,
+    #contact-heading-subject,
+    #contact-heading-message,
     #contact-heading-submit {
         margin-left: 110px;
     }
@@ -756,7 +767,7 @@ footer {
 
 /* Contact page Section for larger to medium screens size from 500px wide and down */
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
     #contact {
         width: 60%;
         display: flex;
@@ -765,10 +776,10 @@ footer {
         align-items: flex-start;
         gap: 16px;
         padding: 16px;
-        border-radius: 4px; 
-        }
-    
-    
+        border-radius: 4px;
+    }
+
+
     #contact>input[type=text],
     #contact>input[type=email],
     #contact>select,
@@ -783,13 +794,15 @@ footer {
         margin-bottom: 16px;
         resize: vertical;
     }
-    
+
     #contact>input[type=submit]:hover {
         background-color: lightskyblue;
     }
-    
-    #contact-heading-fname,#contact-heading-email,
-    #contact-heading-subject,#contact-heading-message,
+
+    #contact-heading-fname,
+    #contact-heading-email,
+    #contact-heading-subject,
+    #contact-heading-message,
     #contact-heading-submit {
         margin-left: 80px;
     }
@@ -797,7 +810,7 @@ footer {
 
 /* Contact page Section for larger to medium screens size from 320px wide and down */
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
     #contact {
         width: 60%;
         display: flex;
@@ -806,10 +819,10 @@ footer {
         align-items: flex-start;
         gap: 16px;
         padding: 16px;
-        border-radius: 4px; 
-        }
-    
-    
+        border-radius: 4px;
+    }
+
+
     #contact>input[type=text],
     #contact>input[type=email],
     #contact>select,
@@ -824,13 +837,15 @@ footer {
         margin-bottom: 16px;
         resize: vertical;
     }
-    
+
     #contact>input[type=submit]:hover {
         background-color: lightskyblue;
     }
-    
-    #contact-heading-fname,#contact-heading-email,
-    #contact-heading-subject,#contact-heading-message,
+
+    #contact-heading-fname,
+    #contact-heading-email,
+    #contact-heading-subject,
+    #contact-heading-message,
     #contact-heading-submit {
         margin-left: 50px;
     }
