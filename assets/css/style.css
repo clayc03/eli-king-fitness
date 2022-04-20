@@ -246,7 +246,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50%;
+    height: 150px;
     background-color: lightcyan;
     margin-left: 250px;
     margin-right: 250px;
@@ -255,7 +255,7 @@ footer {
 
 #prices-heading {
     text-align: center;
-    font-size: 250%;
+    font-size: 20px;
 }
 
 /* Contact */
@@ -307,7 +307,7 @@ footer {
 
 /* media queries */
 
-/* For larger to medium screens size from 1100px wide and down */
+/* Header Section for larger to medium screens size from 1100px wide and down */
 
 @media screen and (max-width: 1110px) {
     header {
@@ -340,6 +340,8 @@ footer {
 
 }
 
+/* Header Section for larger to medium screens size from 600px wide and down */
+
 @media screen and (max-width: 600px){
     header > a {
         text-decoration: none;
@@ -364,6 +366,8 @@ footer {
     }
 }
 
+/* Cover-text Section for larger to medium screens size from 400px wide and down */
+
 @media screen and (max-width: 400px){
     #cover-text {
         left: 50%;
@@ -379,12 +383,16 @@ footer {
     
 }
 
+/* About Section for larger to medium screens size from 320px wide and down */
+
 @media screen and (max-width: 320px){
     #about-heading,#about-heading-below {
         font-size: 36px;
     }
     
 }
+
+/* Meet Eli page for larger to medium screens size from 2000px wide and down */
 
 @media screen and (max-width: 2000px) {
     #meet-eli {
@@ -411,6 +419,7 @@ footer {
 
 }
 
+/* Meet Eli page for larger to medium screens size from 1110px wide and down */
 
 @media screen and (max-width: 1110px) {
     #meet-eli {
@@ -438,6 +447,8 @@ footer {
 
 }
 
+/* Meet Eli page for larger to medium screens size from 800px wide and down */
+
 @media screen and (max-width: 800px) {
     #meet-eli {
         margin: 0 auto;
@@ -462,6 +473,8 @@ footer {
     }
 
 }
+
+/* Meet Eli page for larger to medium screens size from 480px wide and down */
 
 @media screen and (max-width: 480px) {
     #meet-eli {
@@ -488,6 +501,8 @@ footer {
 
 }
 
+/* Meet Eli page for larger to medium screens size from 380px wide and down */
+
 @media screen and (max-width: 380px) {
     #meet-eli {
         margin: 0 auto;
@@ -513,6 +528,27 @@ footer {
 
 }
 
+/* Prices and Plans page for larger to medium screens size from 1900px wide and down */
+
+@media screen and (max-width: 1900px) {
+    .center-prices {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60%;
+        background-color: lightcyan;
+        margin-left: 250px;
+        margin-right: 250px;
+        margin-bottom: 30px;
+    }
+    
+    #prices-heading {
+        text-align: center;
+        font-size: 50px;
+    }
+}
+
+/* Prices and Plans page for larger to medium screens size from 1090px wide and down */
 
 @media screen and (max-width: 1090px) {
     .center-prices {
@@ -531,6 +567,8 @@ footer {
         font-size: 40px;
     }
 }
+
+/* Prices and Plans page for larger to medium screens size from 980px wide and down */
 
 @media screen and (max-width: 980px) {
     .center-prices {
@@ -551,6 +589,8 @@ footer {
     }
 }
 
+/* Prices and Plans page for larger to medium screens size from 625px wide and down */
+
 @media screen and (max-width: 625px) {
     .center-prices {
         display: flex;
@@ -562,7 +602,7 @@ footer {
         margin-right: 15px;
         margin-bottom: 20px;
         font-size: 15px;
-        max-width: min(100%-1100px);
+        max-width: min(100%, 1100px);
     }
     
     #prices-heading {
@@ -570,6 +610,8 @@ footer {
         font-size: 35px;
     }
 }
+
+/* Prices and Plans page for larger to medium screens size from 320px wide and down */
  
 @media screen and (max-width: 320px) {
     .center-prices {
@@ -588,7 +630,9 @@ footer {
     }
 }
 
-@media screen and (max-width: 1920px) {
+/* Contact page Section for larger to medium screens size from 1090px wide and down */
+
+@media screen and (max-width: 320px) {
     
 }
 
