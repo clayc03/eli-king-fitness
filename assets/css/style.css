@@ -240,6 +240,24 @@ footer {
     width: 780px;
 }
 
+/* Pricing section */
+
+.center-prices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    background-color: lightcyan;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 10px;
+}
+
+#prices-heading {
+    text-align: center;
+    font-size: 250%;
+}
+
 /* Contact */
 
 #contact {
@@ -278,25 +296,6 @@ footer {
     margin-left: 250px;
 }
 
-
-/* Pricing section */
-
-.center-prices {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50%;
-    background-color: lightblue;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-bottom: 10px;
-}
-
-#prices-heading {
-    text-align: center;
-    font-size: 250%;
-}
-
 /* Form-complete file styling */
 
 .form-complete {
@@ -309,7 +308,6 @@ footer {
 /* media queries */
 
 /* For larger to medium screens size from 1100px wide and down */
-
 
 @media screen and (max-width: 1110px) {
     header {
@@ -514,3 +512,83 @@ footer {
     }
 
 }
+
+
+@media screen and (max-width: 1090px) {
+    .center-prices {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        background-color: lightcyan;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 10px;
+    }
+    
+    #prices-heading {
+        text-align: center;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .center-prices {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        background-color: lightcyan;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    
+    #prices-heading {
+        text-align: center;
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .center-prices {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        background-color: lightcyan;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        font-size: 15px;
+        max-width: min(100%-1100px);
+    }
+    
+    #prices-heading {
+        text-align: center;
+        font-size: 35px;
+    }
+}
+ 
+@media screen and (max-width: 320px) {
+    .center-prices {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        background-color: lightcyan;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    
+    #prices-heading {
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    
+}
+
