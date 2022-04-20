@@ -198,10 +198,6 @@ hr {
     font-size: 270%;
 }
 
-/* Contact details & Google map section*/
-
-
-
 /* footer */
 
 footer {
@@ -222,6 +218,92 @@ footer {
     margin: 15px;
     padding: 25px;
     color: #004c99;
+}
+
+/* Meet Eli Section */
+
+#meet-eli {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+#eli-about {
+    padding-top: 30px;
+    width: 800px;
+    text-align: left;
+    margin-left: 250px;
+    padding-bottom: 20px;
+}
+
+#meet-eli > img {
+    width: 780px;
+}
+
+/* Contact */
+
+#contact {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+#contact>input[type=text],
+#contact>input[type=email],
+#contact>select,
+#contact>textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #707070;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-left: 250px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#contact>input[type=submit]:hover {
+    background-color: lightskyblue;
+}
+
+#contact-heading-fname,#contact-heading-email,
+#contact-heading-subject,#contact-heading-message,
+#contact-heading-submit {
+    margin-left: 250px;
+}
+
+
+/* Pricing section */
+
+.center-prices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    background-color: lightblue;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 10px;
+}
+
+#prices-heading {
+    text-align: center;
+    font-size: 250%;
+}
+
+/* Form-complete file styling */
+
+.form-complete {
+    text-align: center;
+    margin-top: 5px;
+    height: 400px;
+    font-size: large;
 }
 
 /* media queries */
@@ -306,123 +388,129 @@ footer {
     
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 2000px) {
     #meet-eli {
         margin: 0 auto;
-        text-align: center;
+        text-align: left;
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: min(90%, 900px);
+        padding: 0 16px;
     }
     
     #eli-about {
         padding-top: 30px;
-        width: 800px;
+        width: min(90%, 900px);
+        padding: 0 16px;
         text-align: left;
-        margin-left: 160px;
+        margin-left: 35px;
     }
-    
-    #eli-about-details {
-            padding-top: 30px;
-            width: 780px;
-            text-align: left;
-            margin-left: 100px;
-    }
-    
+
     #meet-eli > img {
-        width: 480px;
+        width: 800px;
     }
 
 }
 
-/* Meet Eli Section */
 
-#meet-eli {
-    margin: 0 auto;
-    text-align: center;
-    display: block;
+@media screen and (max-width: 1110px) {
+    #meet-eli {
+        margin: 0 auto;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: min(90%, 1100px);
+        padding: 0 16px;
+    }
+    
+    #eli-about {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: min(90%, 1100px);
+        padding: 0 16px;
+        text-align: left;
+        margin-left: 55px;
+    }
+
+    #meet-eli > img {
+        width: 840px;
+    }
+
 }
 
-#eli-about {
-    padding-top: 30px;
-    width: 800px;
-    text-align: left;
-    margin-left: 250px;
+@media screen and (max-width: 800px) {
+    #meet-eli {
+        margin: 0 auto;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: min(80%, 900px);
+        padding: 0 16px;
+    }
+    
+    #eli-about {
+        padding-top: 30px;
+        width: min(80%, 900px);
+        padding: 0 16px;
+        text-align: left;
+        margin-left: 5px;
+    }
+
+    #meet-eli > img {
+        width: 500px;
+    }
+
 }
 
-#eli-about-details {
-    padding-top: 30px;
-    width: 800px;
-    text-align: left;
-    margin-left: 250px;
+@media screen and (max-width: 480px) {
+    #meet-eli {
+        margin: 0 auto;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: min(80%, 900px);
+        padding: 0 16px;
+    }
+    
+    #eli-about {
+        padding-top: 30px;
+        width: min(80%, 900px);
+        padding: 0 16px;
+        text-align: left;
+        margin-left: 5px;
+    }
+
+    #meet-eli > img {
+        width: 300px;
+    }
+
 }
 
-#meet-eli > img {
-    width: 780px;
-}
+@media screen and (max-width: 380px) {
+    #meet-eli {
+        margin: 0 auto;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: min(80%, 900px);
+        padding: 0 16px;
+    }
+    
+    #eli-about {
+        padding-top: 30px;
+        width: min(80%, 900px);
+        padding: 0 16px;
+        text-align: left;
+        margin-left: 5px;
+    }
 
-/* Contact */
+    #meet-eli > img {
+        width: 250px;
+    }
 
-#contact {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 1rem;
-    padding: 1rem;
-    border-radius: 4px;
-}
-
-#contact>input[type=text],
-#contact>input[type=email],
-#contact>select,
-#contact>textarea {
-    width: 100%;
-    padding: 12px;
-    border: 2px solid #707070;
-    border-radius: 2px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-left: 250px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-
-#contact>input[type=submit]:hover {
-    background-color: lightskyblue;
-}
-
-#contact-heading-fname,#contact-heading-email,
-#contact-heading-subject,#contact-heading-message,
-#contact-heading-submit {
-    margin-left: 250px;
-}
-
-
-/* Pricing section */
-
-.center-prices {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50%;
-    background-color: lightblue;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-bottom: 10px;
-}
-
-#prices-heading {
-    text-align: center;
-    font-size: 250%;
-}
-
-/* Form-complete file styling */
-
-.form-complete {
-    text-align: center;
-    margin-top: 5px;
-    height: 400px;
-    font-size: large;
 }
