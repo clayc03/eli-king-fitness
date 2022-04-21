@@ -231,7 +231,7 @@ footer {
     color: #004c99;
 }
 
-/* Meet Eli Section */
+/* Meet Eli page */
 
 #meet-eli {
     margin: 0 auto;
@@ -251,7 +251,7 @@ footer {
     width: 780px;
 }
 
-/* Pricing section */
+/* Pricing & Plans page */
 
 .center-prices {
     display: flex;
@@ -285,7 +285,6 @@ footer {
     border-radius: 4px;
     margin: 0 auto;
 }
-
 
 #contact>input[type=text],
 #contact>input[type=email],
