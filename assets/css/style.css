@@ -270,6 +270,7 @@ footer {
     gap: 16px;
     padding: 16px;
     border-radius: 4px;
+    margin: 0 auto;
 }
 
 
@@ -282,23 +283,24 @@ footer {
     border: 2px solid #707070;
     border-radius: 2px;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-left: 250px;
+    /* margin-top: 6px;
+    margin-left: 250px; */
     margin-bottom: 16px;
     resize: vertical;
+
 }
 
 #contact>input[type=submit]:hover {
     background-color: lightskyblue;
 }
 
-#contact-heading-fname,
+/* #contact-heading-fname,
 #contact-heading-email,
 #contact-heading-subject,
 #contact-heading-message,
 #contact-heading-submit {
     margin-left: 250px;
-}
+} */
 
 /* Form-complete file styling */
 
@@ -661,8 +663,8 @@ footer {
         border: 2px solid #707070;
         border-radius: 2px;
         box-sizing: border-box;
-        margin-top: 30px;
-        margin-left: 250px;
+        /* margin-top: 30px;
+        margin-left: 250px; */
         margin-bottom: 16px;
         resize: vertical;
     }
@@ -671,20 +673,20 @@ footer {
         background-color: lightskyblue;
     }
 
-    #contact-heading-fname,
+    /*#contact-heading-fname,
     #contact-heading-email,
     #contact-heading-subject,
     #contact-heading-message,
     #contact-heading-submit {
         margin-left: 250px;
-    }
+    }*/
 }
 
 /* Contact page Section for larger to medium screens size from 1600px wide and down */
 
 @media screen and (max-width: 1600px) {
     #contact {
-        width: 70%;
+        width: 60%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -704,8 +706,8 @@ footer {
         border: 2px solid #707070;
         border-radius: 2px;
         box-sizing: border-box;
-        margin-top: 30px;
-        margin-left: 150px;
+        /* margin-top: 30px;
+        margin-left: 150px; */
         margin-bottom: 16px;
         resize: vertical;
     }
@@ -714,13 +716,13 @@ footer {
         background-color: lightskyblue;
     }
 
-    #contact-heading-fname,
+    /* #contact-heading-fname,
     #contact-heading-email,
     #contact-heading-subject,
     #contact-heading-message,
     #contact-heading-submit {
         margin-left: 150px;
-    }
+    } */
 }
 
 /* Contact page Section for larger to medium screens size from 800px wide and down */
@@ -747,8 +749,8 @@ footer {
         border: 2px solid #707070;
         border-radius: 2px;
         box-sizing: border-box;
-        margin-top: 30px;
-        margin-left: 110px;
+        /* margin-top: 30px;
+        margin-left: 110px; */
         margin-bottom: 16px;
         resize: vertical;
     }
@@ -757,13 +759,13 @@ footer {
         background-color: lightskyblue;
     }
 
-    #contact-heading-fname,
+    /* #contact-heading-fname,
     #contact-heading-email,
     #contact-heading-subject,
     #contact-heading-message,
     #contact-heading-submit {
         margin-left: 110px;
-    }
+    } */
 }
 
 /* Contact page Section for larger to medium screens size from 500px wide and down */
@@ -790,8 +792,8 @@ footer {
         border: 2px solid #707070;
         border-radius: 2px;
         box-sizing: border-box;
-        margin-top: 30px;
-        margin-left: 80px;
+        /* margin-top: 30px;
+        margin-left: 80px; */
         margin-bottom: 16px;
         resize: vertical;
     }
@@ -800,13 +802,13 @@ footer {
         background-color: lightskyblue;
     }
 
-    #contact-heading-fname,
+    /* #contact-heading-fname,
     #contact-heading-email,
     #contact-heading-subject,
     #contact-heading-message,
     #contact-heading-submit {
         margin-left: 80px;
-    }
+    } */
 }
 
 /* Contact page Section for larger to medium screens size from 320px wide and down */
@@ -833,8 +835,8 @@ footer {
         border: 2px solid #707070;
         border-radius: 2px;
         box-sizing: border-box;
-        margin-top: 30px;
-        margin-left: 50px;
+        /* margin-top: 30px;
+        margin-left: 50px; */
         margin-bottom: 16px;
         resize: vertical;
     }
@@ -843,11 +845,11 @@ footer {
         background-color: lightskyblue;
     }
 
-    #contact-heading-fname,
+    /* #contact-heading-fname,
     #contact-heading-email,
     #contact-heading-subject,
     #contact-heading-message,
     #contact-heading-submit {
         margin-left: 50px;
-    }
+    } */
 }

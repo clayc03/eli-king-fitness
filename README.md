@@ -132,10 +132,31 @@ This milestone project was deployed to Github pages where a repository was creat
 
 5. **[Credits](#credits)**
 
+* To complete this project I used Code Institute student template: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
+
+* Ideas and knowledge library:
+
+    * [w3schools.com](https://www.w3schools.com)
+
+    * [css-tricks.com](https://css-tricks.com/)
+
+### Code
+
+### Content:
+
+### Map:
+* [Google maps]()
+
+### Images:
+
+
+[Back to Table of contents](#table-of-contents)
 
 6. **[Screenshots](#screenshots)**
 
+## Project screenshots
 
+![project-screenshot](assets/css/)
 
 
 
