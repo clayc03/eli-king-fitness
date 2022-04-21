@@ -14,6 +14,7 @@ Users of this website will be able to learn more about the founder himself Eli K
 
 ## **[Table of Contents](#contents)**
 1. **[Features](#features)**
+
 This website consists of five pages, four of these pages are accessible from the navigation menu.
 The last page is linked to the contact form and is a submission confirmation page.
 
@@ -62,26 +63,31 @@ Below are the website features:
 
 
 ## Compatibility testing
- Site was tested across multiple virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools. 
+ Using Lighthouse the site was tested across multiple virtual mobile devices. 
 
 [Lighthouse](https://developers.google.com/web/tools/lighthouse) was helpfull throughout the development of this website for mobile and desktop compatibility.
  
- I used a HP Pavilion laptop with Windows 11 Home throughout this project and used 2 x different monitors to connect (Samsung 24 inch and LG 27 inch). I also used my Huawei Pro 30 mobile.
+I used a HP Pavilion laptop with Windows 11 Home throughout this project and used 2 x different monitors to connect (Samsung 24 inch and LG 27 inch). I also used my Huawei P30 Pro mobile to check the sites compatibility.
 
 ## Performance testing
 
 I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website.
 
-Final results:
-![performance_final](testing/performance_final.png)
-I noticed that this tests scores vary from time to time and depends on external libraries as well. 
+Below are the final performance results received for both desktop and mobile compatibility in Lighthouse. 
 
+![Final performance desktop](/assets/images/desktop-performance.png)
+
+![Final performance mobile](/assets/images/mobile-performance.png)
+
+[Back to Table of contents](#table-of-contents)
 
 3. **[Technology](#technology)**
-4. **[Unfixed Bugs](#unfixed-bugs)**
-5. **[Deployment](#deployment)**
-6. **[Credits](#credits)**
-7. **[Screenshots](#screenshots)**
+
+
+
+4. **[Deployment](#deployment)**
+5. **[Credits](#credits)**
+6. **[Screenshots](#screenshots)**
 
 
 
