@@ -158,9 +158,7 @@ I used the Code Institutes student template to complete this milestone project: 
 ### Map:
 
 I added a Google Earth image to the home page for the location of the gym.
-* [Google maps](<iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9737.997973857817!2d5.262705!3d52.39762300000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c617973d5a8627%3A0x5ff993e9bcf97b67!2sE.F.%20van%20Den%20Banweg%2025%2C%201333%20JA%20Almere!5e0!3m2!1sen!2snl!4v1649058770650!5m2!1sen!2snl">
-                </iframe>)
+* [Google maps](https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9737.997973857817!2d5.262705!3d52.39762300000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c617973d5a8627%3A0x5ff993e9bcf97b67!2sE.F.%20van%20Den%20Banweg%2025%2C%201333%20JA%20Almere!5e0!3m2!1sen!2snl!4v1649058770650!5m2!1sen!2snl")
 
 ### Media:
 
