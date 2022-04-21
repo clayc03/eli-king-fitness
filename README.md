@@ -20,6 +20,7 @@ Users of this website will be able to learn more about the founder himself Eli K
 5. **[Credits](#credits)**
 6. **[Screenshots](#screenshots)**
 
+<hr>
 
 1. **[Features](#features)**
 This website consists of five pages, four of these pages are accessible from the navigation menu.
@@ -162,7 +163,17 @@ This milestone project was deployed to Github pages where a repository was creat
 
 ## Project screenshots
 
-![project-screenshot](assets/css/)
+![project-screenshot](assets/images/screenshot1.png)
+
+![project-screenshot](assets/images/screenshot2.png)
+
+![project-screenshot](assets/images/screenshot3.png)
+
+![project-screenshot](assets/images/screenshot4.png)
+
+![project-screenshot](assets/images/screenshot5.png)
+
+![project-screenshot](assets/images/screenshot6.png)
 
 
 
