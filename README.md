@@ -65,7 +65,7 @@ Below are the website features:
 
 ## Functionality testing 
 
- I used Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues. I also used Firefox and Microsoft Edge to test the funcionality of the website on desktop and mobile compatibility using the websites developer tools.
+ I used Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues. I also used Firefox and Microsoft Edge to test the funcionality of the website on desktop and mobile compatibility using these websites developer tools.
  
  [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was helpfull throughout the development of this website.
 
@@ -77,6 +77,12 @@ Below are the website features:
  
 I used a HP Pavilion laptop with Windows 11 Home throughout this project and used 2 x different monitors to connect (Samsung 24 inch and LG 27 inch). I also used my Huawei P30 Pro mobile to check the sites compatibility.
 
+I used [Wave](https://wave.webaim.org/) website to see if there is any color contrast errors. 
+
+Below is a screenshot of the Plans & Prices page who had the only contrast error for the website, I changed the background from lightblue to lightcyan to correct this error.
+
+![Color contrast performance](/assets/images/wave-contrast.png)
+
 ## Performance testing
 
 I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website.
@@ -86,12 +92,6 @@ Below are the final performance results received for both desktop and mobile com
 ![Final performance desktop](/assets/images/desktop-performance.png)
 
 ![Final performance mobile](/assets/images/mobile-performance.png)
-
-I run the [Wave](https://wave.webaim.org/) tool for the website to see if there is any color contrast errors. 
-
-Below is a screenshot of the Plans & Prices page who had the only contrast error for the website, I changed the background from lightblue to lightcyan to correct this error.
-
-![Color contrast performance](/assets/images/wave-contrast.png)
 
 ## Validator testing
 
@@ -114,7 +114,7 @@ CSS
 Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.
 
 Google fonts
-Google Fonts is a computer font and web font service owned by Google. 
+Google Fonts is a computer font and web font service owned by Google (https://fonts.google.com/)
 
 GitHub
 A provider of Internet hosting for software development and version control using Git. 
@@ -135,45 +135,70 @@ This milestone project was deployed to Github pages where a repository was creat
   * From the sources section click on the Branch button and select Main. 
   * After selection of the Main Branch the page will provide the link to the deployed site. 
 
-[Back to Table of contents](#table-of-contents)
-
 5. **[Credits](#credits)**
 
-* To complete this project I used Code Institute student template: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
+## Content
 
-* Ideas and knowledge library:
+I used the Code Institutes student template to complete this milestone project: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
+
+* HTML & CSS Ideas:
 
     * [w3schools.com](https://www.w3schools.com)
 
-    * [css-tricks.com](https://css-tricks.com/)
+* For ideas on personal trainer websites I used the website [Wix](https://nl.wix.com/website-template/view/html/2464)
+* 
 
 ### Code
 
-### Content:
+* I used the code from Code Institutes Love Running Milestone Project to add the hero-image to the home page and social media links to the footer.
+* For the Get in Touch page I used the code from 
 
 ### Map:
-* [Google maps]()
 
-### Images:
+I added a Google Earth image to the home page for the location of the gym.
+* [Google maps](https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9737.997973857817!2d5.262705!3d52.39762300000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c617973d5a8627%3A0x5ff993e9bcf97b67!2sE.F.%20van%20Den%20Banweg%2025%2C%201333%20JA%20Almere!5e0!3m2!1sen!2snl!4v1649058770650!5m2!1sen!2snl")
 
+### Media:
+
+* All the images used in the website was sourced from [Pexels](https://www.pexels.com)
+
+The photographers are as below:
+ * Andrea Piacuadio [Pexels](https://www.pexels.com/nl-nl/@olly)
+ * Andres Ayrton [Pexels](https://www.pexels.com/nl-nl/@andres-ayrton)
+ * William Choquette [Pexels](https://www.pexels.com/nl-nl/@willpicturethis)
+
+### Fonts:
+
+* This website gave me tips on what fonts to use for a personal trainer website [ilovewp.com](https://www.ilovewp.com/resources/wordpress-for-gyms/most-used-google-fonts-on-gym-websites/)
+
+*[Google Fonts](https://fonts.google.com/)
+ * font-family: 'Montserrat', sans-serif;
+ * font-family: 'Open Sans', sans-serif;
 
 [Back to Table of contents](#table-of-contents)
 
 6. **[Screenshots](#screenshots)**
 
-## Project screenshots
+## Website screenshots
 
 ![project-screenshot](assets/images/screenshot1.png)
 
+
 ![project-screenshot](assets/images/screenshot2.png)
+
 
 ![project-screenshot](assets/images/screenshot3.png)
 
+
 ![project-screenshot](assets/images/screenshot4.png)
 
+
 ![project-screenshot](assets/images/screenshot5.png)
+
 
 ![project-screenshot](assets/images/screenshot6.png)
 
 
+[Back to Table of contents](#table-of-contents)
 
+<hr>
