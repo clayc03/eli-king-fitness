@@ -130,6 +130,7 @@ h2 {
 }
 
 /* styling for card layout */
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -256,20 +257,22 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150px;
-    background-color: #ffffff;
-    border: #707070  1px solid;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-bottom: 10px;
+    background-color: lightcyan;
+    border: #707070 1px solid;
+    width: 60%;
+    margin: 0 auto 10px;
 }
 
 #prices-heading {
     text-align: center;
-    font-size: 20px;
+    font-size: 50px;
 }
 
-/* Contact */
+.price-card {
+    margin: 10px;
+}
+
+/* Contact page */
 
 #contact {
     width: 60%;
@@ -297,20 +300,15 @@ footer {
     margin-left: 250px; */
     margin-bottom: 16px;
     resize: vertical;
+}
 
+#message {
+    height: 300px;
 }
 
 #contact>input[type=submit]:hover {
     background-color: lightskyblue;
 }
-
-/* #contact-heading-fname,
-#contact-heading-email,
-#contact-heading-subject,
-#contact-heading-message,
-#contact-heading-submit {
-    margin-left: 250px;
-} */
 
 /* Form-complete file styling */
 
@@ -353,7 +351,6 @@ footer {
     nav {
         width: 100%;
     }
-
 }
 
 /* Header Section for larger to medium screens size from 600px wide and down */
@@ -435,7 +432,6 @@ footer {
     #meet-eli>img {
         width: 800px;
     }
-
 }
 
 /* Meet Eli page for larger to medium screens size from 1110px wide and down */
@@ -463,7 +459,6 @@ footer {
     #meet-eli>img {
         width: 840px;
     }
-
 }
 
 /* Meet Eli page for larger to medium screens size from 800px wide and down */
@@ -490,7 +485,6 @@ footer {
     #meet-eli>img {
         width: 500px;
     }
-
 }
 
 /* Meet Eli page for larger to medium screens size from 480px wide and down */
@@ -517,7 +511,6 @@ footer {
     #meet-eli>img {
         width: 300px;
     }
-
 }
 
 /* Meet Eli page for larger to medium screens size from 380px wide and down */
@@ -544,45 +537,12 @@ footer {
     #meet-eli>img {
         width: 250px;
     }
-
-}
-
-/* Prices and Plans page for larger to medium screens size from 1900px wide and down */
-
-@media screen and (max-width: 1900px) {
-    .center-prices {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 70%;
-        background-color: lightcyan;
-        margin-left: 250px;
-        margin-right: 250px;
-        margin-bottom: 30px;
-    }
-
-    #prices-heading {
-        text-align: center;
-        font-size: 50px;
-    }
 }
 
 /* Prices and Plans page for larger to medium screens size from 1090px wide and down */
 
 @media screen and (max-width: 1090px) {
-    .center-prices {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 50%;
-        background-color: lightcyan;
-        margin-left: 200px;
-        margin-right: 200px;
-        margin-bottom: 10px;
-    }
-
     #prices-heading {
-        text-align: center;
         font-size: 40px;
     }
 }
@@ -591,14 +551,6 @@ footer {
 
 @media screen and (max-width: 980px) {
     .center-prices {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 50%;
-        background-color: lightcyan;
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-bottom: 10px;
         font-size: 15px;
     }
 
@@ -612,20 +564,10 @@ footer {
 
 @media screen and (max-width: 625px) {
     .center-prices {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 50%;
-        background-color: lightcyan;
-        margin-left: 15px;
-        margin-right: 15px;
-        margin-bottom: 20px;
-        font-size: 15px;
-        max-width: min(100%, 1100px);
+        width: 94%;
     }
 
     #prices-heading {
-        text-align: center;
         font-size: 35px;
     }
 }
@@ -633,18 +575,8 @@ footer {
 /* Prices and Plans page for larger to medium screens size from 320px wide and down */
 
 @media screen and (max-width: 320px) {
-    .center-prices {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 50%;
-        background-color: lightcyan;
-        margin-bottom: 10px;
-        font-size: 15px;
-    }
 
     #prices-heading {
-        text-align: center;
         font-size: 20px;
     }
 }
@@ -682,14 +614,6 @@ footer {
     #contact>input[type=submit]:hover {
         background-color: lightskyblue;
     }
-
-    /*#contact-heading-fname,
-    #contact-heading-email,
-    #contact-heading-subject,
-    #contact-heading-message,
-    #contact-heading-submit {
-        margin-left: 250px;
-    }*/
 }
 
 /* Contact page Section for larger to medium screens size from 1600px wide and down */
@@ -725,14 +649,6 @@ footer {
     #contact>input[type=submit]:hover {
         background-color: lightskyblue;
     }
-
-    /* #contact-heading-fname,
-    #contact-heading-email,
-    #contact-heading-subject,
-    #contact-heading-message,
-    #contact-heading-submit {
-        margin-left: 150px;
-    } */
 }
 
 /* Contact page Section for larger to medium screens size from 800px wide and down */
@@ -768,14 +684,6 @@ footer {
     #contact>input[type=submit]:hover {
         background-color: lightskyblue;
     }
-
-    /* #contact-heading-fname,
-    #contact-heading-email,
-    #contact-heading-subject,
-    #contact-heading-message,
-    #contact-heading-submit {
-        margin-left: 110px;
-    } */
 }
 
 /* Contact page Section for larger to medium screens size from 500px wide and down */
@@ -811,14 +719,6 @@ footer {
     #contact>input[type=submit]:hover {
         background-color: lightskyblue;
     }
-
-    /* #contact-heading-fname,
-    #contact-heading-email,
-    #contact-heading-subject,
-    #contact-heading-message,
-    #contact-heading-submit {
-        margin-left: 80px;
-    } */
 }
 
 /* Contact page Section for larger to medium screens size from 320px wide and down */
@@ -854,12 +754,4 @@ footer {
     #contact>input[type=submit]:hover {
         background-color: lightskyblue;
     }
-
-    /* #contact-heading-fname,
-    #contact-heading-email,
-    #contact-heading-subject,
-    #contact-heading-message,
-    #contact-heading-submit {
-        margin-left: 50px;
-    } */
 }
