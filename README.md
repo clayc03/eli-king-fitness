@@ -130,9 +130,12 @@ This milestone project was deployed to Github pages where a repository was creat
 
 [Back to Table of contents](#table-of-contents)
 
-
 5. **[Credits](#credits)**
+
+
 6. **[Screenshots](#screenshots)**
+
+
 
 
 
