@@ -120,6 +120,16 @@ Back to Table of contents
 
 4. **[Deployment](#deployment)**
 
+This milestone project was deployed to Github pages where a repository was created. All html and css code written / changes made was commited and pushed in Gitpod to save in Github.
+
+* To deploy a project I had to:
+  * In Github after creating the repository navigate to the settings tab.
+  * Select the pages link on the left hand side. 
+  * From the sources section click on the Branch button and select Main. 
+  * After selection of the Main Branch the page will provide the link to the deployed site. 
+
+[Back to Table of contents](#table-of-contents)
+
 
 5. **[Credits](#credits)**
 6. **[Screenshots](#screenshots)**
