@@ -247,7 +247,8 @@ footer {
     justify-content: center;
     align-items: center;
     height: 150px;
-    background-color: lightcyan;
+    background-color: #ffffff;
+    border: #707070  1px solid;
     margin-left: 250px;
     margin-right: 250px;
     margin-bottom: 10px;
