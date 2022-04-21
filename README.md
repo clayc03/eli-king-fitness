@@ -86,6 +86,12 @@ Below are the final performance results received for both desktop and mobile com
 
 ![Final performance mobile](/assets/images/mobile-performance.png)
 
+I run the [Wave](https://wave.webaim.org/) tool for the website to see if there is any color contrast errors. 
+
+Below is a screenshot of the Plans & Prices page who had the only contrast error for the website, I changed the background from lightblue to lightcyan to correct this error.
+
+![Color contrast performance](/assets/images/wave-contrast.png)
+
 ## Validator testing
 
 I run the deployed site address in W3C Validator for HTML (https://validator.w3.org) and in (https://jigsaw.w3.org/css-validator/validator) for CSS and no errors or warnings was returned.
