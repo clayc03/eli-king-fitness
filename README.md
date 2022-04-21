@@ -3,13 +3,14 @@
 
 Eli King Fitness is a website of a personal trainer advertising his services in Almere, Netherlands. Eli King Fitness offers personal training classes and also group classes for Beginners and Advanced fitness enthusiasts.
 
-Users of this website will be able to learn more about the founder himself Eli King, the group class schedules and time slots for personal training sessions. The website will also provide information of the different prices for each group class and private session, contact details and where the gym is located.
+Users of this website will be able to learn more about the founder himself Eli King, the group class schedules and time slots for personal training sessions. The website will also provide information on the different prices for each group class and private session, contact details and where the gym is located.
 
 ![Mockup screenshot](/assets/images/cover-page-readme.png)
 
 ## [View life website in github pages](https://clayc03.github.io/eli-king-fitness/) 
 
 <u>*Disclaimer - This website is for educational purpose only*</u>
+
 <hr>
 
 ## **[Table of Contents](#contents)**
@@ -22,7 +23,7 @@ Users of this website will be able to learn more about the founder himself Eli K
 
 <hr>
 
-1. **[Features](#features)**
+1. ## Features
 This website consists of five pages, four of these pages are accessible from the navigation menu.
 The last page is linked to the contact form and is a submission confirmation page.
 
@@ -32,7 +33,7 @@ Below are the website features:
 
 * The Navigation bar is consistant on each page:
 
-    * The logo is on the left side, clicking on the logo will navigate the user back to the home   pageas.
+    * The logo is on the left side, clicking on the logo will navigate the user back to the home   pages.
     * The menu list on the right side consists of four links to each page:
         * Home
         * Meet Eli
@@ -41,7 +42,7 @@ Below are the website features:
 
 ## Home page - About Section
 
-* The About section is on the homepage and gives information about the different classes be offered at Eli King Fitness and also a brief description about the facility where these classes take place. Also on the homepage is the address and a google map for address reference.
+* The About section is on the homepage and gives information about the different classes to be offered at Eli King Fitness and also a brief description about the facility where these classes take place. Also on the homepage is the address and a google map for address reference.
 
 ## Meet Eli
 
@@ -53,7 +54,7 @@ Below are the website features:
 
 ## Get in Touch
 
-* This page the user can complete to get in contact with Eli King Fitness and for a response on any query or information required. This page is linked to a confirmation page that the users message was send successfully.
+* Through this page the user can complete a contact form to get in touch with Eli King Fitness for a response on any query or information required. This page is linked to a confirmation page that confirms the users message was send successfully.
 
 ## Footer
 
@@ -61,23 +62,23 @@ Below are the website features:
 
 [Back to Table of contents](#table-of-contents)
 
-2. **[Testing](#testing)**
+2. ## Testing
 
 ## Functionality testing 
 
- I used Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues. I also used Firefox and Microsoft Edge to test the funcionality of the website on desktop and mobile compatibility using these websites developer tools.
+ I used Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues. I also used [Firefox](https://www.mozilla.org/en-US/firefox/new/) and [Microsoft Edge](https://www.microsoft.com/en-us/edge) to test the funcionality of the website on desktop and mobile compatibility using these websites developer tools.
  
  [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was helpfull throughout the development of this website.
 
 
 ## Compatibility testing
- Using Lighthouse the site was tested across multiple virtual mobile devices. 
+* Using Lighthouse developers tools the site was tested across multiple virtual mobile devices. 
 
 [Lighthouse](https://developers.google.com/web/tools/lighthouse) was helpfull throughout the development of this website for mobile and desktop compatibility.
  
 I used a HP Pavilion laptop with Windows 11 Home throughout this project and used 2 x different monitors to connect (Samsung 24 inch and LG 27 inch). I also used my Huawei P30 Pro mobile to check the sites compatibility.
 
-I used [Wave](https://wave.webaim.org/) website to see if there is any color contrast errors. 
+I used the [Wave](https://wave.webaim.org/) website to see if there is any color contrast errors. 
 
 Below is a screenshot of the Plans & Prices page who had the only contrast error for the website, I changed the background from lightblue to lightcyan to correct this error.
 
@@ -95,7 +96,7 @@ Below are the final performance results received for both desktop and mobile com
 
 ## Validator testing
 
-I run the deployed site address in W3C Validator for HTML (https://validator.w3.org) and in (https://jigsaw.w3.org/css-validator/validator) for CSS and no errors or warnings was returned.
+I run the deployed site address in W3C Validator for HTML (https://validator.w3.org) and in (https://jigsaw.w3.org/css-validator/validator) for CSS and no errors or warnings were returned.
 
 ![Final performance html](/assets/images/final-html.png)
 
@@ -103,29 +104,29 @@ I run the deployed site address in W3C Validator for HTML (https://validator.w3.
 
 [Back to Table of contents](#table-of-contents)
 
-3. **[Technology](#technology)**
+3. ## Technology
 
 For this website I used the following Technology:
 
-HTML5
+**HTML5**
 HTML5 is a markup language used for structuring and presenting content on the World Wide Web.
 
-CSS
+**CSS**
 Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.
 
-Google fonts
-Google Fonts is a computer font and web font service owned by Google (https://fonts.google.com/)
+**Google fonts**
+Google Fonts is a computer font and web font service owned by Google.
 
-GitHub
+**GitHub**
 A provider of Internet hosting for software development and version control using Git. 
 
-Gitpod
+**Gitpod**
 An open-source developer platform for remote development.
 
 Back to Table of contents
 
 
-4. **[Deployment](#deployment)**
+4. ## Deployment
 
 This milestone project was deployed to Github pages where a repository was created. All html and css code written / changes made was commited and pushed in Gitpod to save in Github.
 
@@ -135,7 +136,7 @@ This milestone project was deployed to Github pages where a repository was creat
   * From the sources section click on the Branch button and select Main. 
   * After selection of the Main Branch the page will provide the link to the deployed site. 
 
-5. **[Credits](#credits)**
+5. ## Credits
 
 ## Content
 
@@ -146,17 +147,20 @@ I used the Code Institutes student template to complete this milestone project: 
     * [w3schools.com](https://www.w3schools.com)
 
 * For ideas on personal trainer websites I used the website [Wix](https://nl.wix.com/website-template/view/html/2464)
-* 
+
+* For ideas on what certification a personal trainer could obtain the website [Fitness Trainer](https://fitnesstrainer.com/fitness-blog/the-5-best-personal-trainer-certifications) was used.
 
 ### Code
 
 * I used the code from Code Institutes Love Running Milestone Project to add the hero-image to the home page and social media links to the footer.
-* For the Get in Touch page I used the code from 
+* For the Get in Touch contact form I used code from [w3schools](https://www.w3schools.com/howto/howto_css_contact_form.asp)
 
 ### Map:
 
 I added a Google Earth image to the home page for the location of the gym.
-* [Google maps](https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9737.997973857817!2d5.262705!3d52.39762300000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c617973d5a8627%3A0x5ff993e9bcf97b67!2sE.F.%20van%20Den%20Banweg%2025%2C%201333%20JA%20Almere!5e0!3m2!1sen!2snl!4v1649058770650!5m2!1sen!2snl")
+* [Google maps](<iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9737.997973857817!2d5.262705!3d52.39762300000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c617973d5a8627%3A0x5ff993e9bcf97b67!2sE.F.%20van%20Den%20Banweg%2025%2C%201333%20JA%20Almere!5e0!3m2!1sen!2snl!4v1649058770650!5m2!1sen!2snl">
+                </iframe>)
 
 ### Media:
 
@@ -177,7 +181,7 @@ The photographers are as below:
 
 [Back to Table of contents](#table-of-contents)
 
-6. **[Screenshots](#screenshots)**
+6. ## Screenshots
 
 ## Website screenshots
 
