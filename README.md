@@ -14,7 +14,14 @@ Users of this website will be able to learn more about the founder himself Eli K
 
 ## **[Table of Contents](#contents)**
 1. **[Features](#features)**
+2. **[Testing](#testing)**
+3. **[Technology](#technology)**
+4. **[Deployment](#deployment)**
+5. **[Credits](#credits)**
+6. **[Screenshots](#screenshots)**
 
+
+1. **[Features](#features)**
 This website consists of five pages, four of these pages are accessible from the navigation menu.
 The last page is linked to the contact form and is a submission confirmation page.
 
@@ -79,13 +86,41 @@ Below are the final performance results received for both desktop and mobile com
 
 ![Final performance mobile](/assets/images/mobile-performance.png)
 
+## Validator testing
+
+I run the deployed site address in W3C Validator for HTML (https://validator.w3.org) and in (https://jigsaw.w3.org/css-validator/validator) for CSS and no errors or warnings was returned.
+
+![Final performance html](/assets/images/final-html.png)
+
+![Final performance css](/assets/images/final-css.png)
+
 [Back to Table of contents](#table-of-contents)
 
 3. **[Technology](#technology)**
 
+For this website I used the following Technology:
+
+HTML5
+HTML5 is a markup language used for structuring and presenting content on the World Wide Web.
+
+CSS
+Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.
+
+Google fonts
+Google Fonts is a computer font and web font service owned by Google. 
+
+GitHub
+A provider of Internet hosting for software development and version control using Git. 
+
+Gitpod
+An open-source developer platform for remote development.
+
+Back to Table of contents
 
 
 4. **[Deployment](#deployment)**
+
+
 5. **[Credits](#credits)**
 6. **[Screenshots](#screenshots)**
 
